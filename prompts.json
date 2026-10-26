@@ -1,0 +1,3461 @@
+{
+  "version": 1,
+  "prompts": [
+    {
+      "id": "obj-1",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph something you see every single day.",
+      "subtitle": "The most familiar things are the ones we forget to keep."
+    },
+    {
+      "id": "obj-2",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a favorite thing you use without thinking.",
+      "subtitle": "Your hands know it better than your eyes do."
+    },
+    {
+      "id": "obj-3",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of an object that has been with you for years.",
+      "subtitle": "Some things quietly become part of the story."
+    },
+    {
+      "id": "obj-4",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a tool you reach for whenever something needs fixing.",
+      "subtitle": "Usefulness is its own kind of beauty."
+    },
+    {
+      "id": "obj-5",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Find something with a worn edge or a faded label and capture it.",
+      "subtitle": "Wear is proof of being used and loved."
+    },
+    {
+      "id": "obj-6",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of what is sitting on your desk right now.",
+      "subtitle": "A snapshot of this exact stretch of your life."
+    },
+    {
+      "id": "obj-7",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a pair of shoes that have walked a lot of miles.",
+      "subtitle": "They have been to places you may not remember."
+    },
+    {
+      "id": "obj-8",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture the first thing you pick up in the morning.",
+      "subtitle": "The start of the day, in object form."
+    },
+    {
+      "id": "ppl-1",
+      "category": "PEOPLE",
+      "text": "Capture something that tells a story about someone you love.",
+      "subtitle": "It doesn't need to show their face."
+    },
+    {
+      "id": "ppl-2",
+      "category": "PEOPLE",
+      "text": "Photograph the place where you and a friend usually sit.",
+      "subtitle": "Seats hold a lot of conversations."
+    },
+    {
+      "id": "ppl-3",
+      "category": "PEOPLE",
+      "text": "Take a picture of someone's hands doing something they always do.",
+      "subtitle": "Hands remember what faces forget."
+    },
+    {
+      "id": "ppl-4",
+      "category": "PEOPLE",
+      "text": "Photograph a gift from someone who matters to you.",
+      "subtitle": "Keep the thought alongside the thing."
+    },
+    {
+      "id": "ppl-5",
+      "category": "PEOPLE",
+      "text": "Capture the empty chair, cup, or coat that belongs to someone.",
+      "subtitle": "Presence can show up as absence."
+    },
+    {
+      "id": "ppl-6",
+      "category": "PEOPLE",
+      "text": "Take a photo of a note or card someone wrote for you.",
+      "subtitle": "Handwriting is its own kind of portrait."
+    },
+    {
+      "id": "ppl-7",
+      "category": "PEOPLE",
+      "text": "Photograph a spot you share with someone you care about.",
+      "subtitle": "Where you meet matters as much as when."
+    },
+    {
+      "id": "ppl-8",
+      "category": "PEOPLE",
+      "text": "Take a candid photo of someone you love, with their blessing.",
+      "subtitle": "The unposed moments are the ones you'll replay."
+    },
+    {
+      "id": "home-1",
+      "category": "HOME",
+      "text": "Photograph something that reminds you of home.",
+      "subtitle": "Home can be a thing, a smell, or a stretch of wall."
+    },
+    {
+      "id": "home-2",
+      "category": "HOME",
+      "text": "Capture a corner of a room where life happens.",
+      "subtitle": "Look for the spot that is always a little lived-in."
+    },
+    {
+      "id": "home-3",
+      "category": "HOME",
+      "text": "Take a picture of the light coming through a window.",
+      "subtitle": "Notice where it lands and how long it stays."
+    },
+    {
+      "id": "home-4",
+      "category": "HOME",
+      "text": "Photograph something that makes a room feel like yours.",
+      "subtitle": "A blanket, a mug, a crooked frame."
+    },
+    {
+      "id": "home-5",
+      "category": "HOME",
+      "text": "Capture the door you open at the end of a long day.",
+      "subtitle": "The threshold between out there and in here."
+    },
+    {
+      "id": "home-6",
+      "category": "HOME",
+      "text": "Take a picture of the spot in your home where you feel most at ease.",
+      "subtitle": "Show it as it really looks, not tidied up."
+    },
+    {
+      "id": "home-7",
+      "category": "HOME",
+      "text": "Photograph a shelf, drawer, or counter exactly as it is today.",
+      "subtitle": "Future you will love the detail."
+    },
+    {
+      "id": "home-8",
+      "category": "HOME",
+      "text": "Capture the view from the window you look out of most.",
+      "subtitle": "You have probably memorized it without trying."
+    },
+    {
+      "id": "nat-1",
+      "category": "NATURE",
+      "text": "Capture the sky exactly as it looks right now.",
+      "subtitle": "No editing needed. Just look up."
+    },
+    {
+      "id": "nat-2",
+      "category": "NATURE",
+      "text": "Find a tiny detail in nature and capture it.",
+      "subtitle": "A vein in a leaf, a snail shell, a drop of water."
+    },
+    {
+      "id": "nat-3",
+      "category": "NATURE",
+      "text": "Photograph a tree you pass often.",
+      "subtitle": "Notice what it is doing today."
+    },
+    {
+      "id": "nat-4",
+      "category": "NATURE",
+      "text": "Take a picture of a shadow that caught your attention.",
+      "subtitle": "Shadows are light telling a story."
+    },
+    {
+      "id": "nat-5",
+      "category": "NATURE",
+      "text": "Capture a puddle, a pebble, or a patch of grass up close.",
+      "subtitle": "Get low and see the small world."
+    },
+    {
+      "id": "nat-6",
+      "category": "NATURE",
+      "text": "Photograph the clouds and notice their shape.",
+      "subtitle": "They will never look like this again."
+    },
+    {
+      "id": "nat-7",
+      "category": "NATURE",
+      "text": "Find a plant growing somewhere it probably shouldn't and capture it.",
+      "subtitle": "Life is stubborn and sometimes funny."
+    },
+    {
+      "id": "nat-8",
+      "category": "NATURE",
+      "text": "Take a picture of the light at the edge of the day.",
+      "subtitle": "Sunrise or sunset, whichever finds you."
+    },
+    {
+      "id": "det-1",
+      "category": "DETAILS",
+      "text": "Take a picture of a little thing someone else might overlook.",
+      "subtitle": "Be the person who noticed."
+    },
+    {
+      "id": "det-2",
+      "category": "DETAILS",
+      "text": "Photograph an unexpected color in your surroundings.",
+      "subtitle": "One bright thing hiding among the usual ones."
+    },
+    {
+      "id": "det-3",
+      "category": "DETAILS",
+      "text": "Capture a texture you could almost feel through the screen.",
+      "subtitle": "Rough, soft, peeling, woven."
+    },
+    {
+      "id": "det-4",
+      "category": "DETAILS",
+      "text": "Photograph a handwritten sign, label, or scribble.",
+      "subtitle": "Someone's hurry or care is written right there."
+    },
+    {
+      "id": "det-5",
+      "category": "DETAILS",
+      "text": "Take a close-up of something you usually see from far away.",
+      "subtitle": "Move closer than feels natural."
+    },
+    {
+      "id": "det-6",
+      "category": "DETAILS",
+      "text": "Capture a pattern hiding in plain sight.",
+      "subtitle": "Tiles, fences, shadows, stacked cups."
+    },
+    {
+      "id": "det-7",
+      "category": "DETAILS",
+      "text": "Photograph a crack, scratch, or chip that has a story.",
+      "subtitle": "Imperfections are where memories collect."
+    },
+    {
+      "id": "det-8",
+      "category": "DETAILS",
+      "text": "Find something tiny and put it in the middle of the frame.",
+      "subtitle": "Let it have the whole picture to itself."
+    },
+    {
+      "id": "plc-1",
+      "category": "PLACES",
+      "text": "Take a picture of a place that feels familiar.",
+      "subtitle": "The kind of place your feet find on their own."
+    },
+    {
+      "id": "plc-2",
+      "category": "PLACES",
+      "text": "Photograph the street or path you walk most often.",
+      "subtitle": "Ordinary routes make up a life."
+    },
+    {
+      "id": "plc-3",
+      "category": "PLACES",
+      "text": "Capture a spot you would take a visitor to first.",
+      "subtitle": "What does it say about where you live?"
+    },
+    {
+      "id": "plc-4",
+      "category": "PLACES",
+      "text": "Photograph a place that is quiet right now.",
+      "subtitle": "Stillness is easy to miss."
+    },
+    {
+      "id": "plc-5",
+      "category": "PLACES",
+      "text": "Take a picture of a shop, stall, or doorway you pass all the time.",
+      "subtitle": "One day it may not be there."
+    },
+    {
+      "id": "plc-6",
+      "category": "PLACES",
+      "text": "Capture a place you want to remember exactly as it is today.",
+      "subtitle": "Places change slowly, then suddenly."
+    },
+    {
+      "id": "plc-7",
+      "category": "PLACES",
+      "text": "Photograph a bench, stairway, or corner where you tend to pause.",
+      "subtitle": "Resting spots say a lot about us."
+    },
+    {
+      "id": "plc-8",
+      "category": "PLACES",
+      "text": "Capture the view from the highest or lowest place nearby.",
+      "subtitle": "A different angle on somewhere you know."
+    },
+    {
+      "id": "atm-1",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something that made you smile today.",
+      "subtitle": "Even a small smile counts."
+    },
+    {
+      "id": "atm-2",
+      "category": "ATMOSPHERE",
+      "text": "Capture a moment that feels calm.",
+      "subtitle": "Let the picture be quiet too."
+    },
+    {
+      "id": "atm-3",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture that shows how the day feels, without people in it.",
+      "subtitle": "A color, a light, an empty chair."
+    },
+    {
+      "id": "atm-4",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something cozy.",
+      "subtitle": "Wool, steam, lamplight, a good corner."
+    },
+    {
+      "id": "atm-5",
+      "category": "ATMOSPHERE",
+      "text": "Capture the mood of the room you are in right now.",
+      "subtitle": "Not the room itself, but how it feels."
+    },
+    {
+      "id": "atm-6",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture of something that feels like a deep breath.",
+      "subtitle": "Open space, still water, an unmade bed."
+    },
+    {
+      "id": "atm-7",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the sound of a place, in whatever way you can show it.",
+      "subtitle": "What would the noise look like?"
+    },
+    {
+      "id": "atm-8",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of an unhurried afternoon.",
+      "subtitle": "Look for slowness."
+    },
+    {
+      "id": "nos-1",
+      "category": "NOSTALGIA",
+      "text": "Capture something old that still matters.",
+      "subtitle": "Age and importance are not opposites."
+    },
+    {
+      "id": "nos-2",
+      "category": "NOSTALGIA",
+      "text": "Photograph something that has changed over time.",
+      "subtitle": "Faded, grown, repaired, or rebuilt."
+    },
+    {
+      "id": "nos-3",
+      "category": "NOSTALGIA",
+      "text": "Photograph something from your childhood that you still have, or something that looks like it.",
+      "subtitle": "Small things can carry big years."
+    },
+    {
+      "id": "nos-4",
+      "category": "NOSTALGIA",
+      "text": "Capture a book, record, or game that belongs to a certain time in your life.",
+      "subtitle": "Some objects are time machines."
+    },
+    {
+      "id": "nos-5",
+      "category": "NOSTALGIA",
+      "text": "Photograph an old photograph, letter, or ticket stub.",
+      "subtitle": "A memory of a memory."
+    },
+    {
+      "id": "nos-6",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a place that isn't what it used to be.",
+      "subtitle": "Hold on to how it looks now."
+    },
+    {
+      "id": "nos-7",
+      "category": "NOSTALGIA",
+      "text": "Capture something that smells like a memory, even if the camera can't.",
+      "subtitle": "Show what you would be smelling."
+    },
+    {
+      "id": "nos-8",
+      "category": "NOSTALGIA",
+      "text": "Photograph something you wish you could show your younger self.",
+      "subtitle": "What would they be amazed by?"
+    },
+    {
+      "id": "food-1",
+      "category": "FOOD",
+      "text": "Photograph a meal, snack, or drink that belongs to today.",
+      "subtitle": "Today's taste, saved for later."
+    },
+    {
+      "id": "food-2",
+      "category": "FOOD",
+      "text": "Capture the cup or mug you always choose.",
+      "subtitle": "Everyone has one."
+    },
+    {
+      "id": "food-3",
+      "category": "FOOD",
+      "text": "Take a picture of a dish someone makes for you.",
+      "subtitle": "Taste is a way of being looked after."
+    },
+    {
+      "id": "food-4",
+      "category": "FOOD",
+      "text": "Photograph the table after the meal is over.",
+      "subtitle": "Crumbs and empty glasses mean good company."
+    },
+    {
+      "id": "food-5",
+      "category": "FOOD",
+      "text": "Capture a morning ritual in progress.",
+      "subtitle": "The kettle, the stretch, the first page."
+    },
+    {
+      "id": "food-6",
+      "category": "FOOD",
+      "text": "Take a picture of the snack you always keep on hand.",
+      "subtitle": "Tiny habits tell your story."
+    },
+    {
+      "id": "food-7",
+      "category": "FOOD",
+      "text": "Photograph an ingredient before it becomes something else.",
+      "subtitle": "Potential, sitting on a counter."
+    },
+    {
+      "id": "food-8",
+      "category": "FOOD",
+      "text": "Capture a small treat you gave yourself this week.",
+      "subtitle": "You deserve to remember it."
+    },
+    {
+      "id": "unx-1",
+      "category": "UNEXPECTED",
+      "text": "Photograph an ordinary moment you might otherwise forget.",
+      "subtitle": "Nothing special happened. Keep it anyway."
+    },
+    {
+      "id": "unx-2",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of a little mess that shows real life.",
+      "subtitle": "A pile of laundry can be a love letter."
+    },
+    {
+      "id": "unx-3",
+      "category": "UNEXPECTED",
+      "text": "Capture something that surprised you today.",
+      "subtitle": "However small the surprise."
+    },
+    {
+      "id": "unx-4",
+      "category": "UNEXPECTED",
+      "text": "Photograph a reflection you stumbled across.",
+      "subtitle": "Glass, water, a shiny spoon."
+    },
+    {
+      "id": "unx-5",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of something funny you noticed.",
+      "subtitle": "Humor deserves to be archived."
+    },
+    {
+      "id": "unx-6",
+      "category": "UNEXPECTED",
+      "text": "Capture a moment of waiting, delay, or a detour.",
+      "subtitle": "Interruptions are part of the day too."
+    },
+    {
+      "id": "unx-7",
+      "category": "UNEXPECTED",
+      "text": "Take a picture through something: a window, a gap, or a doorway.",
+      "subtitle": "Frame within a frame."
+    },
+    {
+      "id": "unx-8",
+      "category": "UNEXPECTED",
+      "text": "Capture a coincidence, two things that happen to match.",
+      "subtitle": "The world sometimes rhymes."
+    },
+    {
+      "id": "ref-1",
+      "category": "REFLECTION",
+      "text": "Photograph something that represents what you are working toward.",
+      "subtitle": "Even a symbol will do."
+    },
+    {
+      "id": "ref-2",
+      "category": "REFLECTION",
+      "text": "Capture something you are grateful for right now.",
+      "subtitle": "Look around slowly."
+    },
+    {
+      "id": "ref-3",
+      "category": "REFLECTION",
+      "text": "Take a picture of something you're proud of, however small.",
+      "subtitle": "Small victories still count."
+    },
+    {
+      "id": "ref-4",
+      "category": "REFLECTION",
+      "text": "Photograph where you are in your life at this moment, using only an object.",
+      "subtitle": "What stands in for this chapter?"
+    },
+    {
+      "id": "ref-5",
+      "category": "REFLECTION",
+      "text": "Capture something you want to carry into tomorrow.",
+      "subtitle": "A thing, a feeling, a plan."
+    },
+    {
+      "id": "ref-6",
+      "category": "REFLECTION",
+      "text": "Photograph something you've outgrown or are ready to let go of.",
+      "subtitle": "Remember it kindly, then move on."
+    },
+    {
+      "id": "ref-7",
+      "category": "REFLECTION",
+      "text": "Capture something that helps you rest.",
+      "subtitle": "Where does your body feel safe?"
+    },
+    {
+      "id": "ref-8",
+      "category": "REFLECTION",
+      "text": "Photograph a small thing that proves you made it through a hard week.",
+      "subtitle": "Evidence that you kept going."
+    },
+    {
+      "id": "sea-1",
+      "category": "SEASONAL",
+      "text": "Photograph something you want to remember about this season.",
+      "subtitle": "Seasons slip by faster than we expect."
+    },
+    {
+      "id": "sea-2",
+      "category": "SEASONAL",
+      "text": "Capture the way the weather is changing your surroundings.",
+      "subtitle": "Wet streets, dry leaves, long shadows."
+    },
+    {
+      "id": "sea-3",
+      "category": "SEASONAL",
+      "text": "Photograph the clothes, umbrella, or shoes the season asks for.",
+      "subtitle": "What you wear says when you lived it."
+    },
+    {
+      "id": "sea-4",
+      "category": "SEASONAL",
+      "text": "Capture a sign of the season arriving or fading.",
+      "subtitle": "The in-between days are the interesting ones."
+    },
+    {
+      "id": "sea-5",
+      "category": "SEASONAL",
+      "text": "Photograph a seasonal food, flower, or decoration.",
+      "subtitle": "Some things only show up once a year."
+    },
+    {
+      "id": "sea-6",
+      "category": "SEASONAL",
+      "text": "Take a picture of how the light looks different this time of year.",
+      "subtitle": "Angle, color, warmth."
+    },
+    {
+      "id": "sea-7",
+      "category": "SEASONAL",
+      "text": "Capture an outdoor spot as it looks in this season, so you can compare it later.",
+      "subtitle": "Come back and shoot it again next time."
+    },
+    {
+      "id": "sea-8",
+      "category": "SEASONAL",
+      "text": "Photograph something you only get to enjoy during this time of year.",
+      "subtitle": "A short-lived pleasure, kept."
+    },
+    {
+      "id": "obj-9",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph the mug, glass, or bottle you used most today.",
+      "subtitle": "Daily companions rarely get a portrait."
+    },
+    {
+      "id": "obj-10",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a drawer you open without thinking.",
+      "subtitle": "What lives inside says plenty."
+    },
+    {
+      "id": "obj-11",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a pen, pencil, or marker that is nearly used up.",
+      "subtitle": "Almost finished, almost gone."
+    },
+    {
+      "id": "obj-12",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph an object you have repaired instead of replacing.",
+      "subtitle": "Mended things carry extra history."
+    },
+    {
+      "id": "obj-13",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture your phone charger, cable, or power bank in its natural habitat.",
+      "subtitle": "The tangle is part of the truth."
+    },
+    {
+      "id": "obj-14",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a bag you carry everywhere.",
+      "subtitle": "Look at the stains and the stitches."
+    },
+    {
+      "id": "obj-15",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of an umbrella, raincoat, or hat waiting by the door.",
+      "subtitle": "Ready for weather that hasn't arrived."
+    },
+    {
+      "id": "obj-16",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a key and the lock it belongs to.",
+      "subtitle": "A small pairing that opens a whole life."
+    },
+    {
+      "id": "obj-17",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a clock or watch you check often.",
+      "subtitle": "Time as you actually keep it."
+    },
+    {
+      "id": "obj-18",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of your toothbrush cup, comb, or mirror.",
+      "subtitle": "The quiet start and end of every day."
+    },
+    {
+      "id": "obj-19",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a notebook with your handwriting in it.",
+      "subtitle": "Your hand, frozen on a page."
+    },
+    {
+      "id": "obj-20",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a pair of glasses or sunglasses resting somewhere.",
+      "subtitle": "Set down, as if mid-thought."
+    },
+    {
+      "id": "obj-21",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a coin, button, or bottle cap you found.",
+      "subtitle": "Small treasures nobody else wanted."
+    },
+    {
+      "id": "obj-22",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of the most-used button on a device you own.",
+      "subtitle": "Worn smooth by repetition."
+    },
+    {
+      "id": "obj-23",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a lamp or light switch you reach for in the dark.",
+      "subtitle": "Your fingers know where it is."
+    },
+    {
+      "id": "obj-24",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a jar, tin, or box that holds odds and ends.",
+      "subtitle": "Every home has one."
+    },
+    {
+      "id": "obj-25",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a towel, blanket, or sheet that has been washed a hundred times.",
+      "subtitle": "Soft from being used."
+    },
+    {
+      "id": "obj-26",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph the remote control, game controller, or headphones you always grab.",
+      "subtitle": "Entertainment, within reach."
+    },
+    {
+      "id": "obj-27",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a broken thing you haven't thrown away.",
+      "subtitle": "Why you kept it is the story."
+    },
+    {
+      "id": "obj-28",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph something you borrowed and still haven't returned.",
+      "subtitle": "Honesty belongs in a scrapbook too."
+    },
+    {
+      "id": "obj-29",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a sticker, label, or tag stuck somewhere it doesn't belong.",
+      "subtitle": "Little acts of decoration."
+    },
+    {
+      "id": "obj-30",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a calendar, planner, or sticky note with your plans on it.",
+      "subtitle": "The future, written small."
+    },
+    {
+      "id": "obj-31",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture the extension cord or plug that holds your corner of the room together.",
+      "subtitle": "Unglamorous and essential."
+    },
+    {
+      "id": "obj-32",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a coat hook, hanger, or shoe rack.",
+      "subtitle": "Where the day gets put down."
+    },
+    {
+      "id": "obj-33",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph the tool or gadget you were most grateful for this week.",
+      "subtitle": "Gratitude for the practical."
+    },
+    {
+      "id": "obj-34",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture something plastic, something metal, and something wooden side by side.",
+      "subtitle": "Three materials, one frame."
+    },
+    {
+      "id": "obj-35",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a thing you have had since before you could drive.",
+      "subtitle": "Older than your independence."
+    },
+    {
+      "id": "obj-36",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a spare, backup, or just-in-case item.",
+      "subtitle": "The optimist's stash."
+    },
+    {
+      "id": "obj-37",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a receipt, ticket, or paper scrap from today.",
+      "subtitle": "Evidence of an ordinary errand."
+    },
+    {
+      "id": "obj-38",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of the thing you always misplace, wherever you found it today.",
+      "subtitle": "It turned up again."
+    },
+    {
+      "id": "obj-39",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a lid and the container it does not quite fit.",
+      "subtitle": "Mismatches are charming."
+    },
+    {
+      "id": "obj-40",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture a pillow, cushion, or stuffed toy that has been loved.",
+      "subtitle": "Squished into its own shape."
+    },
+    {
+      "id": "obj-41",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a bicycle, scooter, or bag strap in use.",
+      "subtitle": "Equipment for getting around."
+    },
+    {
+      "id": "obj-42",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph your reflection in an everyday object, like a spoon or a kettle.",
+      "subtitle": "A tiny, warped self-portrait."
+    },
+    {
+      "id": "obj-43",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture an object that is exactly the right size for your hand.",
+      "subtitle": "Made for holding."
+    },
+    {
+      "id": "obj-44",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a thing you only use once a year.",
+      "subtitle": "Waiting in the cupboard."
+    },
+    {
+      "id": "obj-45",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph a shopping bag, basket, or tote at the end of a trip.",
+      "subtitle": "The shape of what you carried home."
+    },
+    {
+      "id": "obj-46",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Capture something you bought with your first earnings, or its modern cousin.",
+      "subtitle": "Pride in the small purchase."
+    },
+    {
+      "id": "obj-47",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Take a picture of a thing you have given a name.",
+      "subtitle": "Objects can be pets too."
+    },
+    {
+      "id": "obj-48",
+      "category": "EVERYDAY_OBJECTS",
+      "text": "Photograph the contents of one pocket.",
+      "subtitle": "A tiny portrait of today."
+    },
+    {
+      "id": "ppl-9",
+      "category": "PEOPLE",
+      "text": "Photograph a handshake, hug, or high-five in progress, with permission.",
+      "subtitle": "Greetings are small rituals."
+    },
+    {
+      "id": "ppl-10",
+      "category": "PEOPLE",
+      "text": "Capture two coffee cups on one table.",
+      "subtitle": "Company, implied."
+    },
+    {
+      "id": "ppl-11",
+      "category": "PEOPLE",
+      "text": "Take a picture of a family recipe card or the dish it makes.",
+      "subtitle": "Inheritance you can taste."
+    },
+    {
+      "id": "ppl-12",
+      "category": "PEOPLE",
+      "text": "Photograph a pair of shoes by the door that is not yours.",
+      "subtitle": "A guest has arrived."
+    },
+    {
+      "id": "ppl-13",
+      "category": "PEOPLE",
+      "text": "Capture the back of someone's head as they walk ahead of you.",
+      "subtitle": "Following someone you trust."
+    },
+    {
+      "id": "ppl-14",
+      "category": "PEOPLE",
+      "text": "Take a picture of a photo frame that holds someone you miss.",
+      "subtitle": "Keep the frame, not just the face."
+    },
+    {
+      "id": "ppl-15",
+      "category": "PEOPLE",
+      "text": "Photograph your friends' shadows on a wall or road.",
+      "subtitle": "Silhouettes tell enough."
+    },
+    {
+      "id": "ppl-16",
+      "category": "PEOPLE",
+      "text": "Capture a handwritten message left on a fridge or table.",
+      "subtitle": "Love in sticky-note form."
+    },
+    {
+      "id": "ppl-17",
+      "category": "PEOPLE",
+      "text": "Take a picture of a game, puzzle, or deck of cards shared with others.",
+      "subtitle": "Who played, who won, who cheated."
+    },
+    {
+      "id": "ppl-18",
+      "category": "PEOPLE",
+      "text": "Photograph someone laughing so hard they cannot speak, if they are happy for you to.",
+      "subtitle": "Joy at full volume."
+    },
+    {
+      "id": "ppl-19",
+      "category": "PEOPLE",
+      "text": "Capture an object that always reminds you of a certain friend.",
+      "subtitle": "Every friend has a symbol."
+    },
+    {
+      "id": "ppl-20",
+      "category": "PEOPLE",
+      "text": "Take a picture of someone's favorite chair or corner of a sofa.",
+      "subtitle": "The seat that belongs to them."
+    },
+    {
+      "id": "ppl-21",
+      "category": "PEOPLE",
+      "text": "Photograph a message thread you want to remember, with the names hidden.",
+      "subtitle": "Digital closeness, kept private."
+    },
+    {
+      "id": "ppl-22",
+      "category": "PEOPLE",
+      "text": "Capture the table set for people you love.",
+      "subtitle": "Plates before the crowd."
+    },
+    {
+      "id": "ppl-23",
+      "category": "PEOPLE",
+      "text": "Take a picture of a pair of hands holding something warm.",
+      "subtitle": "Sharing a drink or a bowl."
+    },
+    {
+      "id": "ppl-24",
+      "category": "PEOPLE",
+      "text": "Photograph a coat, scarf, or jacket you borrowed or lent.",
+      "subtitle": "Warmth that travels between people."
+    },
+    {
+      "id": "ppl-25",
+      "category": "PEOPLE",
+      "text": "Capture an old classmate's name in a yearbook, bag, or desk.",
+      "subtitle": "Written when you were somebody else."
+    },
+    {
+      "id": "ppl-26",
+      "category": "PEOPLE",
+      "text": "Take a picture of a child's drawing, craft, or handwriting.",
+      "subtitle": "Proud on a fridge door."
+    },
+    {
+      "id": "ppl-27",
+      "category": "PEOPLE",
+      "text": "Photograph the doorstep or bus stop where you usually meet someone.",
+      "subtitle": "The place before the hello."
+    },
+    {
+      "id": "ppl-28",
+      "category": "PEOPLE",
+      "text": "Capture a birthday candle, wrapper, or decoration after the party.",
+      "subtitle": "The leftovers of celebration."
+    },
+    {
+      "id": "ppl-29",
+      "category": "PEOPLE",
+      "text": "Take a picture of a song, playlist, or instrument someone shared with you.",
+      "subtitle": "Music as a handed-down thing."
+    },
+    {
+      "id": "ppl-30",
+      "category": "PEOPLE",
+      "text": "Photograph a pet and the person who loves them.",
+      "subtitle": "Two loyalties in one frame."
+    },
+    {
+      "id": "ppl-31",
+      "category": "PEOPLE",
+      "text": "Capture a pair of different-sized shoes side by side, like parent and child.",
+      "subtitle": "Growing up in footwear."
+    },
+    {
+      "id": "ppl-32",
+      "category": "PEOPLE",
+      "text": "Take a picture of an apron, tool, or uniform that belongs to someone's work.",
+      "subtitle": "What they do, honored."
+    },
+    {
+      "id": "ppl-33",
+      "category": "PEOPLE",
+      "text": "Photograph the view from the seat next to someone you like.",
+      "subtitle": "A shared window."
+    },
+    {
+      "id": "ppl-34",
+      "category": "PEOPLE",
+      "text": "Capture a postcard, card, or letter you have kept.",
+      "subtitle": "Paper that meant something."
+    },
+    {
+      "id": "ppl-35",
+      "category": "PEOPLE",
+      "text": "Take a picture of an inside joke, written or drawn somewhere.",
+      "subtitle": "Only a few people get it."
+    },
+    {
+      "id": "ppl-36",
+      "category": "PEOPLE",
+      "text": "Photograph a group of people from far away, so no one is identifiable.",
+      "subtitle": "The shape of belonging."
+    },
+    {
+      "id": "ppl-37",
+      "category": "PEOPLE",
+      "text": "Capture someone teaching you a skill, even if it is just their hands.",
+      "subtitle": "Learning is a relationship."
+    },
+    {
+      "id": "ppl-38",
+      "category": "PEOPLE",
+      "text": "Take a picture of a meal you shared after a long day.",
+      "subtitle": "Tired together, fed together."
+    },
+    {
+      "id": "ppl-39",
+      "category": "PEOPLE",
+      "text": "Photograph a keychain, charm, or bracelet from someone.",
+      "subtitle": "Carried everywhere without ceremony."
+    },
+    {
+      "id": "ppl-40",
+      "category": "PEOPLE",
+      "text": "Capture two toothbrushes, two towels, or two mugs.",
+      "subtitle": "Domestic pairs."
+    },
+    {
+      "id": "ppl-41",
+      "category": "PEOPLE",
+      "text": "Take a picture of an elder's walking stick, reading glasses, or slippers.",
+      "subtitle": "Quiet dignity, in objects."
+    },
+    {
+      "id": "ppl-42",
+      "category": "PEOPLE",
+      "text": "Photograph a place where you once apologized, forgave, or made up.",
+      "subtitle": "The seat of a hard conversation."
+    },
+    {
+      "id": "ppl-43",
+      "category": "PEOPLE",
+      "text": "Capture a shared umbrella, blanket, or pair of earphones.",
+      "subtitle": "One thing, two people."
+    },
+    {
+      "id": "ppl-44",
+      "category": "PEOPLE",
+      "text": "Take a picture of a missed call from someone you love, with the name hidden.",
+      "subtitle": "Being thought of."
+    },
+    {
+      "id": "ppl-45",
+      "category": "PEOPLE",
+      "text": "Photograph a tradition in progress, like lighting, setting, or wrapping.",
+      "subtitle": "Done the same way every year."
+    },
+    {
+      "id": "ppl-46",
+      "category": "PEOPLE",
+      "text": "Capture a wave goodbye, a closed door, or a departing bus from a respectful distance.",
+      "subtitle": "Endings that are also beginnings."
+    },
+    {
+      "id": "ppl-47",
+      "category": "PEOPLE",
+      "text": "Take a picture of someone's handwriting on a label, sign, or note.",
+      "subtitle": "A person in loops and lines."
+    },
+    {
+      "id": "ppl-48",
+      "category": "PEOPLE",
+      "text": "Photograph the last thing someone gave you.",
+      "subtitle": "Whatever it was."
+    },
+    {
+      "id": "home-9",
+      "category": "HOME",
+      "text": "Capture your kitchen at the quiet hour you like best.",
+      "subtitle": "Before the day starts or after it ends."
+    },
+    {
+      "id": "home-10",
+      "category": "HOME",
+      "text": "Take a picture of a wall that has things pinned, taped, or hung on it.",
+      "subtitle": "A collage nobody planned."
+    },
+    {
+      "id": "home-11",
+      "category": "HOME",
+      "text": "Photograph your bed as you left it this morning.",
+      "subtitle": "Honest, unmade, lived-in."
+    },
+    {
+      "id": "home-12",
+      "category": "HOME",
+      "text": "Capture a plant on a windowsill leaning toward the light.",
+      "subtitle": "It knows where it is going."
+    },
+    {
+      "id": "home-13",
+      "category": "HOME",
+      "text": "Take a picture of the oldest piece of furniture you own.",
+      "subtitle": "Still holding things up."
+    },
+    {
+      "id": "home-14",
+      "category": "HOME",
+      "text": "Photograph the stairs, hallway, or corridor you walk each day.",
+      "subtitle": "A path inside your own house."
+    },
+    {
+      "id": "home-15",
+      "category": "HOME",
+      "text": "Capture a bathroom shelf with all the small bottles.",
+      "subtitle": "The unexamined shrine of routine."
+    },
+    {
+      "id": "home-16",
+      "category": "HOME",
+      "text": "Photograph what rain does to your roof, window, or balcony.",
+      "subtitle": "Weather arriving at home."
+    },
+    {
+      "id": "home-17",
+      "category": "HOME",
+      "text": "Take a picture of the spot where mail, keys, and coins tend to pile up.",
+      "subtitle": "Home's unofficial catch-all."
+    },
+    {
+      "id": "home-18",
+      "category": "HOME",
+      "text": "Capture a doorway with a height chart, scratches, or marks.",
+      "subtitle": "Evidence of growing."
+    },
+    {
+      "id": "home-19",
+      "category": "HOME",
+      "text": "Take a picture of the cupboard you always forget to clean.",
+      "subtitle": "Honest corners count."
+    },
+    {
+      "id": "home-20",
+      "category": "HOME",
+      "text": "Photograph the things you keep close to your pillow at night.",
+      "subtitle": "Within reach of sleep."
+    },
+    {
+      "id": "home-21",
+      "category": "HOME",
+      "text": "Capture your laundry hanging to dry.",
+      "subtitle": "Domestic flags in the wind."
+    },
+    {
+      "id": "home-22",
+      "category": "HOME",
+      "text": "Take a picture of a room with the lights off and the day coming in.",
+      "subtitle": "Natural light only."
+    },
+    {
+      "id": "home-23",
+      "category": "HOME",
+      "text": "Photograph your fridge door.",
+      "subtitle": "A gallery of magnets and promises."
+    },
+    {
+      "id": "home-24",
+      "category": "HOME",
+      "text": "Capture a rug, mat, or doormat that has seen many feet.",
+      "subtitle": "Where everyone wipes their day off."
+    },
+    {
+      "id": "home-25",
+      "category": "HOME",
+      "text": "Take a picture of the sink with a few dishes in it.",
+      "subtitle": "Proof that people live here."
+    },
+    {
+      "id": "home-26",
+      "category": "HOME",
+      "text": "Photograph a bookshelf, a stack of books, or a single book left open.",
+      "subtitle": "A mind on a shelf."
+    },
+    {
+      "id": "home-27",
+      "category": "HOME",
+      "text": "Capture a curtain moving in the wind.",
+      "subtitle": "Home breathing."
+    },
+    {
+      "id": "home-28",
+      "category": "HOME",
+      "text": "Take a picture of the quietest place in the house.",
+      "subtitle": "Where you can hear yourself."
+    },
+    {
+      "id": "home-29",
+      "category": "HOME",
+      "text": "Photograph a sleeping pet or a pet's favorite spot.",
+      "subtitle": "Their claim on the house."
+    },
+    {
+      "id": "home-30",
+      "category": "HOME",
+      "text": "Capture the stove, kettle, or rice cooker doing its job.",
+      "subtitle": "Warmth in action."
+    },
+    {
+      "id": "home-31",
+      "category": "HOME",
+      "text": "Take a picture of the front gate, fence, or door number.",
+      "subtitle": "The face your home shows."
+    },
+    {
+      "id": "home-32",
+      "category": "HOME",
+      "text": "Photograph the ceiling you stare at before sleeping.",
+      "subtitle": "Cracks, stains, shadows."
+    },
+    {
+      "id": "home-33",
+      "category": "HOME",
+      "text": "Capture a ladder, stool, or step you always use.",
+      "subtitle": "Reaching a little higher."
+    },
+    {
+      "id": "home-34",
+      "category": "HOME",
+      "text": "Take a picture of a fan, heater, or air conditioner at work.",
+      "subtitle": "Comfort as a machine."
+    },
+    {
+      "id": "home-35",
+      "category": "HOME",
+      "text": "Photograph a mirror in your house and what it reflects.",
+      "subtitle": "A room, twice."
+    },
+    {
+      "id": "home-36",
+      "category": "HOME",
+      "text": "Capture the garden, yard, or pot where something is growing.",
+      "subtitle": "Small acts of tending."
+    },
+    {
+      "id": "home-37",
+      "category": "HOME",
+      "text": "Take a picture of the place where you keep photographs or souvenirs.",
+      "subtitle": "A box, a frame, a corner."
+    },
+    {
+      "id": "home-38",
+      "category": "HOME",
+      "text": "Photograph a window with raindrops or condensation.",
+      "subtitle": "The glass keeps score."
+    },
+    {
+      "id": "home-39",
+      "category": "HOME",
+      "text": "Capture something that tells you the house is humming along, like a ticking clock or a running fridge.",
+      "subtitle": "The ambient things."
+    },
+    {
+      "id": "home-40",
+      "category": "HOME",
+      "text": "Take a picture of your own shadow inside your house.",
+      "subtitle": "The day's light tracing you."
+    },
+    {
+      "id": "home-41",
+      "category": "HOME",
+      "text": "Photograph the room where you spend the most time.",
+      "subtitle": "Wide, honest, no tidying."
+    },
+    {
+      "id": "home-42",
+      "category": "HOME",
+      "text": "Capture the lamp or lantern you turn on first.",
+      "subtitle": "Beginning the evening."
+    },
+    {
+      "id": "home-43",
+      "category": "HOME",
+      "text": "Take a picture of a spot where you once hid, or where someone hid from you.",
+      "subtitle": "Childhood geography."
+    },
+    {
+      "id": "home-44",
+      "category": "HOME",
+      "text": "Photograph a house repair or improvement in progress.",
+      "subtitle": "Making the place better."
+    },
+    {
+      "id": "home-45",
+      "category": "HOME",
+      "text": "Capture the smallest object on your shelf that matters the most.",
+      "subtitle": "Tiny stakes, big feelings."
+    },
+    {
+      "id": "home-46",
+      "category": "HOME",
+      "text": "Take a picture of the first thing you see when you wake.",
+      "subtitle": "Morning's opening line."
+    },
+    {
+      "id": "home-47",
+      "category": "HOME",
+      "text": "Photograph the last thing you see before you turn off the light.",
+      "subtitle": "Night's closing line."
+    },
+    {
+      "id": "home-48",
+      "category": "HOME",
+      "text": "Capture the nameplate or sign that says this place is yours.",
+      "subtitle": "A small claim of belonging."
+    },
+    {
+      "id": "nat-9",
+      "category": "NATURE",
+      "text": "Photograph a leaf that has changed color or fallen.",
+      "subtitle": "The tree let go."
+    },
+    {
+      "id": "nat-10",
+      "category": "NATURE",
+      "text": "Capture a spider web with dew or light on it.",
+      "subtitle": "Engineering in silk."
+    },
+    {
+      "id": "nat-11",
+      "category": "NATURE",
+      "text": "Take a picture of an insect going about its day.",
+      "subtitle": "Small lives, full schedules."
+    },
+    {
+      "id": "nat-12",
+      "category": "NATURE",
+      "text": "Photograph a bird, even if it is only a blur on a wire.",
+      "subtitle": "Wild company."
+    },
+    {
+      "id": "nat-13",
+      "category": "NATURE",
+      "text": "Capture the moon, or the place where it will rise.",
+      "subtitle": "The same one everybody sees."
+    },
+    {
+      "id": "nat-14",
+      "category": "NATURE",
+      "text": "Take a picture of the horizon where the land or sea meets the sky.",
+      "subtitle": "A line that stays far away."
+    },
+    {
+      "id": "nat-15",
+      "category": "NATURE",
+      "text": "Photograph a stone with an interesting shape or color.",
+      "subtitle": "Slow geology in your palm."
+    },
+    {
+      "id": "nat-16",
+      "category": "NATURE",
+      "text": "Capture a flower, weed, or blossom up close.",
+      "subtitle": "Petals, pollen, patterns."
+    },
+    {
+      "id": "nat-17",
+      "category": "NATURE",
+      "text": "Take a picture of ripples in water.",
+      "subtitle": "A moment spreading outward."
+    },
+    {
+      "id": "nat-18",
+      "category": "NATURE",
+      "text": "Photograph a tree trunk and its bark.",
+      "subtitle": "Rings of time, in texture."
+    },
+    {
+      "id": "nat-19",
+      "category": "NATURE",
+      "text": "Capture the wind moving through grass, leaves, or laundry.",
+      "subtitle": "Something invisible, shown."
+    },
+    {
+      "id": "nat-20",
+      "category": "NATURE",
+      "text": "Take a picture of footprints in sand, mud, or dust.",
+      "subtitle": "Someone, or something, was here."
+    },
+    {
+      "id": "nat-21",
+      "category": "NATURE",
+      "text": "Photograph a bright patch of sunlight on the ground.",
+      "subtitle": "A stage for dust and shadows."
+    },
+    {
+      "id": "nat-22",
+      "category": "NATURE",
+      "text": "Capture a stray cat, dog, or any animal you share the street with.",
+      "subtitle": "Neighbors without addresses."
+    },
+    {
+      "id": "nat-23",
+      "category": "NATURE",
+      "text": "Take a picture of a fruit tree or the fruit that fell from one.",
+      "subtitle": "Sweetness, sometimes from above."
+    },
+    {
+      "id": "nat-24",
+      "category": "NATURE",
+      "text": "Photograph the colors of a sunset or sunrise reflected on something.",
+      "subtitle": "Light borrowing a surface."
+    },
+    {
+      "id": "nat-25",
+      "category": "NATURE",
+      "text": "Capture raindrops, puddles, or splashes mid-fall.",
+      "subtitle": "Weather you can almost touch."
+    },
+    {
+      "id": "nat-26",
+      "category": "NATURE",
+      "text": "Take a picture of moss, a fern, or lichen.",
+      "subtitle": "Green that took its time."
+    },
+    {
+      "id": "nat-27",
+      "category": "NATURE",
+      "text": "Photograph a seed, a sprout, or a seedling.",
+      "subtitle": "A promise starting up."
+    },
+    {
+      "id": "nat-28",
+      "category": "NATURE",
+      "text": "Capture the starry sky, or the effort of trying to.",
+      "subtitle": "Even a smudge counts."
+    },
+    {
+      "id": "nat-29",
+      "category": "NATURE",
+      "text": "Take a picture of fog, mist, or haze.",
+      "subtitle": "The world, softened."
+    },
+    {
+      "id": "nat-30",
+      "category": "NATURE",
+      "text": "Photograph a place where nature is taking back a building.",
+      "subtitle": "Plants win slowly."
+    },
+    {
+      "id": "nat-31",
+      "category": "NATURE",
+      "text": "Capture a feather, shell, or bone you found.",
+      "subtitle": "A found fragment of a life."
+    },
+    {
+      "id": "nat-32",
+      "category": "NATURE",
+      "text": "Take a picture of the sky just before the rain.",
+      "subtitle": "A mood in gray."
+    },
+    {
+      "id": "nat-33",
+      "category": "NATURE",
+      "text": "Photograph the shadow of a tree, branch, or leaf on a wall.",
+      "subtitle": "Nature's own drawing."
+    },
+    {
+      "id": "nat-34",
+      "category": "NATURE",
+      "text": "Capture a river, stream, canal, or drain with water moving.",
+      "subtitle": "Always on the way somewhere."
+    },
+    {
+      "id": "nat-35",
+      "category": "NATURE",
+      "text": "Take a picture of a hill, mountain, or far-off ridge.",
+      "subtitle": "Distance in layers."
+    },
+    {
+      "id": "nat-36",
+      "category": "NATURE",
+      "text": "Photograph a patch of wildflowers or weeds in bloom.",
+      "subtitle": "Uninvited and glorious."
+    },
+    {
+      "id": "nat-37",
+      "category": "NATURE",
+      "text": "Capture a snail, ant, or worm on a journey.",
+      "subtitle": "The long way, for them."
+    },
+    {
+      "id": "nat-38",
+      "category": "NATURE",
+      "text": "Take a picture of the sky through tree branches.",
+      "subtitle": "Looking up through lace."
+    },
+    {
+      "id": "nat-39",
+      "category": "NATURE",
+      "text": "Photograph a rainbow, or a prism of light somewhere unusual.",
+      "subtitle": "Color, split."
+    },
+    {
+      "id": "nat-40",
+      "category": "NATURE",
+      "text": "Capture an animal's footprint, nest, or burrow.",
+      "subtitle": "A home, but not yours."
+    },
+    {
+      "id": "nat-41",
+      "category": "NATURE",
+      "text": "Take a picture of a coconut, banana leaf, or palm.",
+      "subtitle": "Tropical shapes."
+    },
+    {
+      "id": "nat-42",
+      "category": "NATURE",
+      "text": "Photograph the sea, the lake, or the big water near you.",
+      "subtitle": "Always changing, always there."
+    },
+    {
+      "id": "nat-43",
+      "category": "NATURE",
+      "text": "Capture the light just before dark.",
+      "subtitle": "Blue hour, golden hour, whatever you have."
+    },
+    {
+      "id": "nat-44",
+      "category": "NATURE",
+      "text": "Take a picture of sunlight hitting water.",
+      "subtitle": "Glitter, briefly."
+    },
+    {
+      "id": "nat-45",
+      "category": "NATURE",
+      "text": "Photograph the smallest plant you can find.",
+      "subtitle": "Look closer."
+    },
+    {
+      "id": "nat-46",
+      "category": "NATURE",
+      "text": "Capture a dry leaf crunched on the ground.",
+      "subtitle": "Autumn's confetti."
+    },
+    {
+      "id": "nat-47",
+      "category": "NATURE",
+      "text": "Take a picture of dust, pollen, or smoke in a beam of light.",
+      "subtitle": "Air made visible."
+    },
+    {
+      "id": "nat-48",
+      "category": "NATURE",
+      "text": "Photograph a place outdoors where you sat for a while.",
+      "subtitle": "Time in the open."
+    },
+    {
+      "id": "det-9",
+      "category": "DETAILS",
+      "text": "Capture a doorknob, handle, or latch that has been touched thousands of times.",
+      "subtitle": "Brass with a memory."
+    },
+    {
+      "id": "det-10",
+      "category": "DETAILS",
+      "text": "Take a picture of the shadow of a railing, fence, or window.",
+      "subtitle": "Stripes of light."
+    },
+    {
+      "id": "det-11",
+      "category": "DETAILS",
+      "text": "Photograph a tiny bit of text, like a serial number or tag.",
+      "subtitle": "Fine print, finally read."
+    },
+    {
+      "id": "det-12",
+      "category": "DETAILS",
+      "text": "Capture rust, peeling paint, or fading color.",
+      "subtitle": "Time at work on a surface."
+    },
+    {
+      "id": "det-13",
+      "category": "DETAILS",
+      "text": "Take a picture of a stitch, seam, or button on clothing.",
+      "subtitle": "Tiny craft that holds it together."
+    },
+    {
+      "id": "det-14",
+      "category": "DETAILS",
+      "text": "Photograph a corner where two walls meet.",
+      "subtitle": "Geometry in your house."
+    },
+    {
+      "id": "det-15",
+      "category": "DETAILS",
+      "text": "Capture the grain of wood or the weave of a basket.",
+      "subtitle": "Pattern as a material."
+    },
+    {
+      "id": "det-16",
+      "category": "DETAILS",
+      "text": "Take a picture of a single drop of water on a surface.",
+      "subtitle": "A tiny lens."
+    },
+    {
+      "id": "det-17",
+      "category": "DETAILS",
+      "text": "Photograph a fingerprint, smudge, or handprint on glass.",
+      "subtitle": "A signature nobody signed."
+    },
+    {
+      "id": "det-18",
+      "category": "DETAILS",
+      "text": "Capture a screw, nail, or bolt holding something up.",
+      "subtitle": "Unseen strength."
+    },
+    {
+      "id": "det-19",
+      "category": "DETAILS",
+      "text": "Take a picture of the edge of a page, a book spine, or a bookmark.",
+      "subtitle": "Paper in profile."
+    },
+    {
+      "id": "det-20",
+      "category": "DETAILS",
+      "text": "Photograph the colors on a spice rack or a paint palette.",
+      "subtitle": "A rainbow in small jars."
+    },
+    {
+      "id": "det-21",
+      "category": "DETAILS",
+      "text": "Capture the keys on a keyboard, piano, or phone.",
+      "subtitle": "Worn letters and polished tops."
+    },
+    {
+      "id": "det-22",
+      "category": "DETAILS",
+      "text": "Photograph a shadow resting across a pillow or blanket.",
+      "subtitle": "Darkness, napping."
+    },
+    {
+      "id": "det-23",
+      "category": "DETAILS",
+      "text": "Take a picture of a reflection in an eye, a puddle, or a button.",
+      "subtitle": "A world inside a world."
+    },
+    {
+      "id": "det-24",
+      "category": "DETAILS",
+      "text": "Capture a tiny crack in concrete with something growing through it.",
+      "subtitle": "Persistence."
+    },
+    {
+      "id": "det-25",
+      "category": "DETAILS",
+      "text": "Take a picture of a ribbon, thread, or string.",
+      "subtitle": "Something that ties things together."
+    },
+    {
+      "id": "det-26",
+      "category": "DETAILS",
+      "text": "Photograph a bubble, a pearl, or a drop of oil.",
+      "subtitle": "Spheres of light."
+    },
+    {
+      "id": "det-27",
+      "category": "DETAILS",
+      "text": "Capture a stamp, a postmark, or a seal.",
+      "subtitle": "A little official mark."
+    },
+    {
+      "id": "det-28",
+      "category": "DETAILS",
+      "text": "Take a picture of a hole in something.",
+      "subtitle": "Absence as a subject."
+    },
+    {
+      "id": "det-29",
+      "category": "DETAILS",
+      "text": "Photograph a repeated shape in a market, on a shelf, or in a crowd.",
+      "subtitle": "Many of the same."
+    },
+    {
+      "id": "det-30",
+      "category": "DETAILS",
+      "text": "Capture a lonely object in a big empty space.",
+      "subtitle": "Scale tells the story."
+    },
+    {
+      "id": "det-31",
+      "category": "DETAILS",
+      "text": "Take a picture of a staple, paperclip, or pin holding paper together.",
+      "subtitle": "The small hardware of life."
+    },
+    {
+      "id": "det-32",
+      "category": "DETAILS",
+      "text": "Photograph a toothpick, matchstick, or straw.",
+      "subtitle": "Single-use, still interesting."
+    },
+    {
+      "id": "det-33",
+      "category": "DETAILS",
+      "text": "Capture a thread of steam rising.",
+      "subtitle": "Heat you can see."
+    },
+    {
+      "id": "det-34",
+      "category": "DETAILS",
+      "text": "Take a picture of the lines on a palm, a leaf, or a map.",
+      "subtitle": "Paths on a surface."
+    },
+    {
+      "id": "det-35",
+      "category": "DETAILS",
+      "text": "Photograph a fold, crease, or wrinkle.",
+      "subtitle": "Where something has been bent."
+    },
+    {
+      "id": "det-36",
+      "category": "DETAILS",
+      "text": "Capture the number or letter that catches your eye today.",
+      "subtitle": "Typography in the wild."
+    },
+    {
+      "id": "det-37",
+      "category": "DETAILS",
+      "text": "Take a picture of the tip of a pencil, a needle, or a leaf.",
+      "subtitle": "A point, in focus."
+    },
+    {
+      "id": "det-38",
+      "category": "DETAILS",
+      "text": "Photograph an uneven tile, stone, or brick.",
+      "subtitle": "One piece out of line."
+    },
+    {
+      "id": "det-39",
+      "category": "DETAILS",
+      "text": "Capture the surface of a pond, a puddle, or a bowl of water.",
+      "subtitle": "Perfectly still, almost."
+    },
+    {
+      "id": "det-40",
+      "category": "DETAILS",
+      "text": "Take a picture of a hinge or a zipper.",
+      "subtitle": "Opening and closing."
+    },
+    {
+      "id": "det-41",
+      "category": "DETAILS",
+      "text": "Photograph the way light sparkles on foil, glass, or a plastic bag.",
+      "subtitle": "Everyday glitter."
+    },
+    {
+      "id": "det-42",
+      "category": "DETAILS",
+      "text": "Capture a tiny piece of litter and its surroundings.",
+      "subtitle": "An honest street portrait."
+    },
+    {
+      "id": "det-43",
+      "category": "DETAILS",
+      "text": "Take a picture of a stain on a table or cloth.",
+      "subtitle": "Evidence of a good time."
+    },
+    {
+      "id": "det-44",
+      "category": "DETAILS",
+      "text": "Photograph a candle flame, a lighter, or a match.",
+      "subtitle": "Small fire, big mood."
+    },
+    {
+      "id": "det-45",
+      "category": "DETAILS",
+      "text": "Capture the edge of a shadow and the light beside it.",
+      "subtitle": "Where one thing becomes another."
+    },
+    {
+      "id": "det-46",
+      "category": "DETAILS",
+      "text": "Take a picture of paper with a coffee ring or a water mark.",
+      "subtitle": "Accidental art."
+    },
+    {
+      "id": "det-47",
+      "category": "DETAILS",
+      "text": "Photograph a color gradient on a wall, a sky, or a drink.",
+      "subtitle": "One hue becoming another."
+    },
+    {
+      "id": "det-48",
+      "category": "DETAILS",
+      "text": "Capture the smallest word you can find on something.",
+      "subtitle": "Tiny text, big feeling."
+    },
+    {
+      "id": "plc-9",
+      "category": "PLACES",
+      "text": "Take a picture of the entrance to somewhere you go every week.",
+      "subtitle": "The threshold of a habit."
+    },
+    {
+      "id": "plc-10",
+      "category": "PLACES",
+      "text": "Photograph the market, store, or stall where you shop most.",
+      "subtitle": "Your place in the local economy."
+    },
+    {
+      "id": "plc-11",
+      "category": "PLACES",
+      "text": "Capture a school corridor, classroom, or gate.",
+      "subtitle": "Where you learned to be you."
+    },
+    {
+      "id": "plc-12",
+      "category": "PLACES",
+      "text": "Take a picture of a bus stop, terminal, or platform you use.",
+      "subtitle": "Waiting is a place too."
+    },
+    {
+      "id": "plc-13",
+      "category": "PLACES",
+      "text": "Photograph a street corner you know in every light.",
+      "subtitle": "Morning, noon, night."
+    },
+    {
+      "id": "plc-14",
+      "category": "PLACES",
+      "text": "Capture the view from a bridge, overpass, or footbridge.",
+      "subtitle": "Looking down on the flow."
+    },
+    {
+      "id": "plc-15",
+      "category": "PLACES",
+      "text": "Take a picture of a church, mosque, temple, or other quiet place of worship.",
+      "subtitle": "Stillness made architecture."
+    },
+    {
+      "id": "plc-16",
+      "category": "PLACES",
+      "text": "Photograph a plaza, park, or square where people gather.",
+      "subtitle": "Public living rooms."
+    },
+    {
+      "id": "plc-17",
+      "category": "PLACES",
+      "text": "Capture a rooftop, balcony, or terrace.",
+      "subtitle": "Your private sky."
+    },
+    {
+      "id": "plc-18",
+      "category": "PLACES",
+      "text": "Take a picture of a repair shop, barbershop, or bakery.",
+      "subtitle": "Where a trade is practiced."
+    },
+    {
+      "id": "plc-19",
+      "category": "PLACES",
+      "text": "Photograph a place that smells like something specific.",
+      "subtitle": "Frying, rain, incense, bread."
+    },
+    {
+      "id": "plc-20",
+      "category": "PLACES",
+      "text": "Capture the road home, whichever way you take.",
+      "subtitle": "The last stretch of the day."
+    },
+    {
+      "id": "plc-21",
+      "category": "PLACES",
+      "text": "Capture the spot where you usually wait for someone to arrive.",
+      "subtitle": "Time spent hoping."
+    },
+    {
+      "id": "plc-22",
+      "category": "PLACES",
+      "text": "Photograph a corner of a library, cafe, or study spot.",
+      "subtitle": "Your place to concentrate."
+    },
+    {
+      "id": "plc-23",
+      "category": "PLACES",
+      "text": "Capture a neighborhood mural, sign, or piece of graffiti.",
+      "subtitle": "The street speaking."
+    },
+    {
+      "id": "plc-24",
+      "category": "PLACES",
+      "text": "Take a picture of a fence, wall, or gate that marks a boundary.",
+      "subtitle": "The line between here and there."
+    },
+    {
+      "id": "plc-25",
+      "category": "PLACES",
+      "text": "Photograph a lookout, hill, or high place near you.",
+      "subtitle": "A different scale."
+    },
+    {
+      "id": "plc-26",
+      "category": "PLACES",
+      "text": "Capture the entrance of a place you have never been inside.",
+      "subtitle": "Curiosity at the door."
+    },
+    {
+      "id": "plc-27",
+      "category": "PLACES",
+      "text": "Take a picture of a river bank, a sea wall, or a pier.",
+      "subtitle": "Where the land stops."
+    },
+    {
+      "id": "plc-28",
+      "category": "PLACES",
+      "text": "Photograph a crowded place from above or afar.",
+      "subtitle": "The pattern of many people."
+    },
+    {
+      "id": "plc-29",
+      "category": "PLACES",
+      "text": "Capture an empty classroom, office, or hall.",
+      "subtitle": "A space with the people missing."
+    },
+    {
+      "id": "plc-30",
+      "category": "PLACES",
+      "text": "Take a picture of a corner shop with its lights on at night.",
+      "subtitle": "A little lantern."
+    },
+    {
+      "id": "plc-31",
+      "category": "PLACES",
+      "text": "Photograph the place you go to be alone.",
+      "subtitle": "Solitude has a location."
+    },
+    {
+      "id": "plc-32",
+      "category": "PLACES",
+      "text": "Capture a landmark everyone in your town knows.",
+      "subtitle": "Local shorthand."
+    },
+    {
+      "id": "plc-33",
+      "category": "PLACES",
+      "text": "Take a picture of a repair, construction, or demolition site.",
+      "subtitle": "Change in progress."
+    },
+    {
+      "id": "plc-34",
+      "category": "PLACES",
+      "text": "Photograph a sidewalk, path, or lane with an interesting surface.",
+      "subtitle": "The ground you cover."
+    },
+    {
+      "id": "plc-35",
+      "category": "PLACES",
+      "text": "Capture an old building and a new building side by side.",
+      "subtitle": "Two eras in one frame."
+    },
+    {
+      "id": "plc-36",
+      "category": "PLACES",
+      "text": "Photograph a familiar place after dark and notice what changes.",
+      "subtitle": "Same place, other self."
+    },
+    {
+      "id": "plc-37",
+      "category": "PLACES",
+      "text": "Photograph a tunnel, an underpass, or a covered walkway.",
+      "subtitle": "Passages."
+    },
+    {
+      "id": "plc-38",
+      "category": "PLACES",
+      "text": "Capture a tricycle, jeepney, boat, or bike in its natural place.",
+      "subtitle": "Transport as character."
+    },
+    {
+      "id": "plc-39",
+      "category": "PLACES",
+      "text": "Take a picture of a corner that always catches the afternoon sun.",
+      "subtitle": "Golden, reliable."
+    },
+    {
+      "id": "plc-40",
+      "category": "PLACES",
+      "text": "Photograph a place with a view you never get tired of.",
+      "subtitle": "Familiar but fresh."
+    },
+    {
+      "id": "plc-41",
+      "category": "PLACES",
+      "text": "Capture the door of a house you grew up in, or one like it.",
+      "subtitle": "Old thresholds."
+    },
+    {
+      "id": "plc-42",
+      "category": "PLACES",
+      "text": "Take a picture of a place that is about to change.",
+      "subtitle": "Before it's gone."
+    },
+    {
+      "id": "plc-43",
+      "category": "PLACES",
+      "text": "Photograph the first place you see when you step outside.",
+      "subtitle": "Your daily start."
+    },
+    {
+      "id": "plc-44",
+      "category": "PLACES",
+      "text": "Capture a place that reminds you of somewhere else.",
+      "subtitle": "Echoes of elsewhere."
+    },
+    {
+      "id": "plc-45",
+      "category": "PLACES",
+      "text": "Take a picture of a hidden path, shortcut, or alley.",
+      "subtitle": "Local knowledge."
+    },
+    {
+      "id": "plc-46",
+      "category": "PLACES",
+      "text": "Photograph a place where you once got lost.",
+      "subtitle": "Maps fail. Memories stay."
+    },
+    {
+      "id": "plc-47",
+      "category": "PLACES",
+      "text": "Capture a place where someone you love works.",
+      "subtitle": "Their other home."
+    },
+    {
+      "id": "plc-48",
+      "category": "PLACES",
+      "text": "Take a picture of the place you would return to if you could go anywhere.",
+      "subtitle": "Closer than you think."
+    },
+    {
+      "id": "atm-9",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something that feels like Sunday morning.",
+      "subtitle": "Slow, soft, unhurried."
+    },
+    {
+      "id": "atm-10",
+      "category": "ATMOSPHERE",
+      "text": "Capture a scene that feels like the end of a long week.",
+      "subtitle": "An exhale, in a picture."
+    },
+    {
+      "id": "atm-11",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture that shows quiet excitement.",
+      "subtitle": "Something about to happen."
+    },
+    {
+      "id": "atm-12",
+      "category": "ATMOSPHERE",
+      "text": "Photograph a place that feels lonely, but in a gentle way.",
+      "subtitle": "One chair, one light."
+    },
+    {
+      "id": "atm-13",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of warmth.",
+      "subtitle": "Sun, soup, blankets, hugs."
+    },
+    {
+      "id": "atm-14",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the stillness just before something happens.",
+      "subtitle": "Tension before the moment."
+    },
+    {
+      "id": "atm-15",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the feeling of rain on a quiet afternoon.",
+      "subtitle": "Gray and gentle."
+    },
+    {
+      "id": "atm-16",
+      "category": "ATMOSPHERE",
+      "text": "Capture something that feels fresh and new.",
+      "subtitle": "Clean sheets, morning air."
+    },
+    {
+      "id": "atm-17",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the dimmest, softest corner of your evening.",
+      "subtitle": "Soft, slow, dim."
+    },
+    {
+      "id": "atm-18",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something that feels slightly chaotic, in a good way.",
+      "subtitle": "Busy, loud, alive."
+    },
+    {
+      "id": "atm-19",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of being just on time.",
+      "subtitle": "Barely, but enough."
+    },
+    {
+      "id": "atm-20",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something half-hidden that you would only show a friend.",
+      "subtitle": "Half-hidden."
+    },
+    {
+      "id": "atm-21",
+      "category": "ATMOSPHERE",
+      "text": "Photograph a moment that feels like the middle of a story.",
+      "subtitle": "Neither start nor end."
+    },
+    {
+      "id": "atm-22",
+      "category": "ATMOSPHERE",
+      "text": "Capture something that feels peaceful at three in the afternoon.",
+      "subtitle": "The sleepy hour."
+    },
+    {
+      "id": "atm-23",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture of a place that feels like it is waiting for people to return.",
+      "subtitle": "Held in anticipation."
+    },
+    {
+      "id": "atm-24",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the feeling of being tired but content.",
+      "subtitle": "The good kind of tired."
+    },
+    {
+      "id": "atm-25",
+      "category": "ATMOSPHERE",
+      "text": "Capture the color that matches your mood today.",
+      "subtitle": "One hue, no explanation."
+    },
+    {
+      "id": "atm-26",
+      "category": "ATMOSPHERE",
+      "text": "Photograph an object you would carry into a scary day.",
+      "subtitle": "A symbol of courage."
+    },
+    {
+      "id": "atm-27",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the feeling of a long weekend.",
+      "subtitle": "Gladness in the air."
+    },
+    {
+      "id": "atm-28",
+      "category": "ATMOSPHERE",
+      "text": "Capture the way a particular smell changes a room.",
+      "subtitle": "Bread, rain, soap, smoke."
+    },
+    {
+      "id": "atm-29",
+      "category": "ATMOSPHERE",
+      "text": "Find rhythm in a row of windows, steps, or fence posts, and capture it.",
+      "subtitle": "Rhythm in shapes."
+    },
+    {
+      "id": "atm-30",
+      "category": "ATMOSPHERE",
+      "text": "Photograph a scene that could be the final shot of a film.",
+      "subtitle": "Light, closure, credits."
+    },
+    {
+      "id": "atm-31",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of a cozy rainy-day hour.",
+      "subtitle": "Hot drink, window, blanket."
+    },
+    {
+      "id": "atm-32",
+      "category": "ATMOSPHERE",
+      "text": "Capture a blank page, an empty shelf, or a freshly swept floor.",
+      "subtitle": "A page, a path, a morning."
+    },
+    {
+      "id": "atm-33",
+      "category": "ATMOSPHERE",
+      "text": "Photograph a scene that is quietly sad but beautiful.",
+      "subtitle": "Both can be true."
+    },
+    {
+      "id": "atm-34",
+      "category": "ATMOSPHERE",
+      "text": "Photograph a small sign that things might turn out fine.",
+      "subtitle": "A small sign it will be okay."
+    },
+    {
+      "id": "atm-35",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture of the evening in your neighborhood.",
+      "subtitle": "The soft turning of the day."
+    },
+    {
+      "id": "atm-36",
+      "category": "ATMOSPHERE",
+      "text": "Photograph two people leaning in close to talk, from a respectful distance.",
+      "subtitle": "Close, low, whispered."
+    },
+    {
+      "id": "atm-37",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of time slowing down.",
+      "subtitle": "Stretched seconds."
+    },
+    {
+      "id": "atm-38",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the moment a tense day finally lets go of you.",
+      "subtitle": "Letting go."
+    },
+    {
+      "id": "atm-39",
+      "category": "ATMOSPHERE",
+      "text": "Photograph an empty street at an unusual hour.",
+      "subtitle": "Rare silence."
+    },
+    {
+      "id": "atm-40",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of something being almost ready.",
+      "subtitle": "Cake in the oven, bag by the door."
+    },
+    {
+      "id": "atm-41",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture of a place that would sound loud if people were in it.",
+      "subtitle": "Echoes."
+    },
+    {
+      "id": "atm-42",
+      "category": "ATMOSPHERE",
+      "text": "Photograph light that feels like a memory.",
+      "subtitle": "Warm, faded, far."
+    },
+    {
+      "id": "atm-43",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of coming home after a trip.",
+      "subtitle": "Familiar smells and sounds."
+    },
+    {
+      "id": "atm-44",
+      "category": "ATMOSPHERE",
+      "text": "Capture a slow thing being slow: a kettle, a seedling, a queue.",
+      "subtitle": "Slow growth, slow boil."
+    },
+    {
+      "id": "atm-45",
+      "category": "ATMOSPHERE",
+      "text": "Photograph the mood of a crowded bus, jeepney, or train.",
+      "subtitle": "Shared movement."
+    },
+    {
+      "id": "atm-46",
+      "category": "ATMOSPHERE",
+      "text": "Capture the feeling of breakfast at the right time.",
+      "subtitle": "A table in morning light."
+    },
+    {
+      "id": "atm-47",
+      "category": "ATMOSPHERE",
+      "text": "Take a picture of the last light of the evening in a room.",
+      "subtitle": "It fades politely."
+    },
+    {
+      "id": "atm-48",
+      "category": "ATMOSPHERE",
+      "text": "Photograph something that feels like a good decision.",
+      "subtitle": "A road, a door, a choice."
+    },
+    {
+      "id": "nos-9",
+      "category": "NOSTALGIA",
+      "text": "Capture a toy from your childhood, or one that looks like it.",
+      "subtitle": "Plastic and imagination."
+    },
+    {
+      "id": "nos-10",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a school bag, uniform, or ID from long ago.",
+      "subtitle": "Another version of you."
+    },
+    {
+      "id": "nos-11",
+      "category": "NOSTALGIA",
+      "text": "Photograph an old phone, camera, or cassette.",
+      "subtitle": "Technology you grew up with."
+    },
+    {
+      "id": "nos-12",
+      "category": "NOSTALGIA",
+      "text": "Capture the street you used to walk to school.",
+      "subtitle": "Memory in pavement."
+    },
+    {
+      "id": "nos-13",
+      "category": "NOSTALGIA",
+      "text": "Photograph a snack from your childhood, or the place that sold it.",
+      "subtitle": "The taste of being small."
+    },
+    {
+      "id": "nos-14",
+      "category": "NOSTALGIA",
+      "text": "Photograph a sticker album, notebook, or diary page.",
+      "subtitle": "Paper from your own past."
+    },
+    {
+      "id": "nos-15",
+      "category": "NOSTALGIA",
+      "text": "Capture a tree, wall, or corner you used to climb or hide behind.",
+      "subtitle": "Playground geography."
+    },
+    {
+      "id": "nos-16",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a family photo on a wall or in an album.",
+      "subtitle": "Time, framed."
+    },
+    {
+      "id": "nos-17",
+      "category": "NOSTALGIA",
+      "text": "Photograph a faded poster, sign, or mural.",
+      "subtitle": "Old colors in new light."
+    },
+    {
+      "id": "nos-18",
+      "category": "NOSTALGIA",
+      "text": "Capture a game you used to play, or the place you played it.",
+      "subtitle": "Shouts and dust."
+    },
+    {
+      "id": "nos-19",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a piece of clothing you cannot throw away.",
+      "subtitle": "Sentimental stitching."
+    },
+    {
+      "id": "nos-20",
+      "category": "NOSTALGIA",
+      "text": "Photograph a grandparent's furniture, tool, or kitchenware.",
+      "subtitle": "Handed down and still in use."
+    },
+    {
+      "id": "nos-21",
+      "category": "NOSTALGIA",
+      "text": "Capture the source of a song from another year: a radio, speaker, or earphones.",
+      "subtitle": "Music from another year."
+    },
+    {
+      "id": "nos-22",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a scrapbook, trophy, or certificate.",
+      "subtitle": "Proof you were here and trying."
+    },
+    {
+      "id": "nos-23",
+      "category": "NOSTALGIA",
+      "text": "Photograph a place where a certain summer happened.",
+      "subtitle": "Warm, long ago."
+    },
+    {
+      "id": "nos-24",
+      "category": "NOSTALGIA",
+      "text": "Capture a lunchbox, water bottle, or thermos from childhood.",
+      "subtitle": "Daily companions of school."
+    },
+    {
+      "id": "nos-25",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a door you used to open with a different key.",
+      "subtitle": "Old access."
+    },
+    {
+      "id": "nos-26",
+      "category": "NOSTALGIA",
+      "text": "Photograph a handwritten address, name, or phone number.",
+      "subtitle": "From someone's careful pen."
+    },
+    {
+      "id": "nos-27",
+      "category": "NOSTALGIA",
+      "text": "Capture the neighborhood store you went to as a child.",
+      "subtitle": "Candy and coins."
+    },
+    {
+      "id": "nos-28",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of an old coin, banknote, or stamp.",
+      "subtitle": "Value from another time."
+    },
+    {
+      "id": "nos-29",
+      "category": "NOSTALGIA",
+      "text": "Photograph a school desk, blackboard, or piece of chalk.",
+      "subtitle": "Where you learned your letters."
+    },
+    {
+      "id": "nos-30",
+      "category": "NOSTALGIA",
+      "text": "Capture a cartoon, poster, or character you loved.",
+      "subtitle": "Your childhood heroes."
+    },
+    {
+      "id": "nos-31",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a place that used to seem bigger.",
+      "subtitle": "Everything shrinks as you grow."
+    },
+    {
+      "id": "nos-32",
+      "category": "NOSTALGIA",
+      "text": "Photograph a bicycle, a skateboard, or a pair of roller skates.",
+      "subtitle": "Old freedom."
+    },
+    {
+      "id": "nos-33",
+      "category": "NOSTALGIA",
+      "text": "Capture a handwritten recipe from someone older.",
+      "subtitle": "Measurements in pinches."
+    },
+    {
+      "id": "nos-34",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a family heirloom.",
+      "subtitle": "Something passed down, with a story."
+    },
+    {
+      "id": "nos-35",
+      "category": "NOSTALGIA",
+      "text": "Photograph a window you used to look out of as a kid.",
+      "subtitle": "Same sky, older you."
+    },
+    {
+      "id": "nos-36",
+      "category": "NOSTALGIA",
+      "text": "Capture a soap, a perfume, or a mothball that smells like the past.",
+      "subtitle": "Not visible, but present."
+    },
+    {
+      "id": "nos-37",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a mailbox where you once waited for a letter.",
+      "subtitle": "Anticipation, in tin."
+    },
+    {
+      "id": "nos-38",
+      "category": "NOSTALGIA",
+      "text": "Photograph the kind of light that reminds you of an old afternoon.",
+      "subtitle": "Dust and gold."
+    },
+    {
+      "id": "nos-39",
+      "category": "NOSTALGIA",
+      "text": "Capture something you made as a kid.",
+      "subtitle": "Crooked and precious."
+    },
+    {
+      "id": "nos-40",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a handwritten label on a jar or box.",
+      "subtitle": "Kept by someone organized."
+    },
+    {
+      "id": "nos-41",
+      "category": "NOSTALGIA",
+      "text": "Photograph a place where you took a first-day-of-school photo.",
+      "subtitle": "Yearly milestones."
+    },
+    {
+      "id": "nos-42",
+      "category": "NOSTALGIA",
+      "text": "Capture something that is older than you are.",
+      "subtitle": "It preceded your story."
+    },
+    {
+      "id": "nos-43",
+      "category": "NOSTALGIA",
+      "text": "Photograph a spot where you hid as a child, or one that looks like it.",
+      "subtitle": "Still keeping secrets."
+    },
+    {
+      "id": "nos-44",
+      "category": "NOSTALGIA",
+      "text": "Photograph a game console, deck, or board game from your youth.",
+      "subtitle": "Hours, vanished happily."
+    },
+    {
+      "id": "nos-45",
+      "category": "NOSTALGIA",
+      "text": "Capture a magazine, book, or comic you read until it fell apart.",
+      "subtitle": "Loved to pieces."
+    },
+    {
+      "id": "nos-46",
+      "category": "NOSTALGIA",
+      "text": "Take a picture of a faded name written on something.",
+      "subtitle": "Who owned it before."
+    },
+    {
+      "id": "nos-47",
+      "category": "NOSTALGIA",
+      "text": "Photograph a place where you said goodbye to someone.",
+      "subtitle": "An ending location."
+    },
+    {
+      "id": "nos-48",
+      "category": "NOSTALGIA",
+      "text": "Capture a piece of the past that someone else still uses every day.",
+      "subtitle": "Not nostalgia to them."
+    },
+    {
+      "id": "food-9",
+      "category": "FOOD",
+      "text": "Photograph your plate halfway through a meal.",
+      "subtitle": "Honest, not styled."
+    },
+    {
+      "id": "food-10",
+      "category": "FOOD",
+      "text": "Capture a street food vendor's tools or setup.",
+      "subtitle": "Craft on wheels."
+    },
+    {
+      "id": "food-11",
+      "category": "FOOD",
+      "text": "Take a picture of the pot, pan, or wok you cook with most.",
+      "subtitle": "Seasoned by years."
+    },
+    {
+      "id": "food-12",
+      "category": "FOOD",
+      "text": "Photograph a spice, sauce, or condiment you cannot live without.",
+      "subtitle": "The one flavor that makes it yours."
+    },
+    {
+      "id": "food-13",
+      "category": "FOOD",
+      "text": "Capture breakfast in the middle of a rush.",
+      "subtitle": "Fast, standing, still good."
+    },
+    {
+      "id": "food-14",
+      "category": "FOOD",
+      "text": "Take a picture of a dish that tastes like home.",
+      "subtitle": "Familiar flavors."
+    },
+    {
+      "id": "food-15",
+      "category": "FOOD",
+      "text": "Photograph the food market before the crowds arrive.",
+      "subtitle": "Stacks, sacks, and hope."
+    },
+    {
+      "id": "food-16",
+      "category": "FOOD",
+      "text": "Capture a glass or cup that has had a good conversation in it.",
+      "subtitle": "Rings and refills."
+    },
+    {
+      "id": "food-17",
+      "category": "FOOD",
+      "text": "Take a picture of a recipe in progress.",
+      "subtitle": "Mess is part of the method."
+    },
+    {
+      "id": "food-18",
+      "category": "FOOD",
+      "text": "Photograph the lunchbox, plate, or bowl of someone at work or school.",
+      "subtitle": "Midday fuel."
+    },
+    {
+      "id": "food-19",
+      "category": "FOOD",
+      "text": "Capture a bakery window or counter.",
+      "subtitle": "Golden crusts."
+    },
+    {
+      "id": "food-20",
+      "category": "FOOD",
+      "text": "Take a picture of the first sip of something hot.",
+      "subtitle": "Steam in the frame."
+    },
+    {
+      "id": "food-21",
+      "category": "FOOD",
+      "text": "Photograph leftover food in the fridge.",
+      "subtitle": "Tomorrow's gift."
+    },
+    {
+      "id": "food-22",
+      "category": "FOOD",
+      "text": "Capture a meal eaten in an unusual place.",
+      "subtitle": "On a step, in a car, on a roof."
+    },
+    {
+      "id": "food-23",
+      "category": "FOOD",
+      "text": "Take a picture of fruit, vegetables, or herbs from the market.",
+      "subtitle": "Raw and colorful."
+    },
+    {
+      "id": "food-24",
+      "category": "FOOD",
+      "text": "Photograph a family dining table as it normally looks.",
+      "subtitle": "Not tidied."
+    },
+    {
+      "id": "food-25",
+      "category": "FOOD",
+      "text": "Capture a sweet treat from your childhood.",
+      "subtitle": "The first dessert you remember."
+    },
+    {
+      "id": "food-26",
+      "category": "FOOD",
+      "text": "Take a picture of a knife, chopping board, or grater in use.",
+      "subtitle": "Prep work."
+    },
+    {
+      "id": "food-27",
+      "category": "FOOD",
+      "text": "Photograph a cooked dish from directly above.",
+      "subtitle": "A tiny landscape."
+    },
+    {
+      "id": "food-28",
+      "category": "FOOD",
+      "text": "Capture the table at the end of a celebration.",
+      "subtitle": "Food, empty cups, memories."
+    },
+    {
+      "id": "food-29",
+      "category": "FOOD",
+      "text": "Take a picture of coffee, tea, or chocolate at your preferred hour.",
+      "subtitle": "Your daily ceremony."
+    },
+    {
+      "id": "food-30",
+      "category": "FOOD",
+      "text": "Photograph a food stall's menu, handwritten or painted.",
+      "subtitle": "Local typography."
+    },
+    {
+      "id": "food-31",
+      "category": "FOOD",
+      "text": "Capture a pot of rice, noodles, or soup mid-simmer.",
+      "subtitle": "The smell is almost visible."
+    },
+    {
+      "id": "food-32",
+      "category": "FOOD",
+      "text": "Take a picture of an ingredient you were taught never to waste.",
+      "subtitle": "Habits from elders."
+    },
+    {
+      "id": "food-33",
+      "category": "FOOD",
+      "text": "Photograph the bread, rice, or tortilla at the center of your table.",
+      "subtitle": "The staple."
+    },
+    {
+      "id": "food-34",
+      "category": "FOOD",
+      "text": "Capture something you learned to cook recently.",
+      "subtitle": "A new skill, edible."
+    },
+    {
+      "id": "food-35",
+      "category": "FOOD",
+      "text": "Take a picture of a dessert or snack you shared.",
+      "subtitle": "Divided into pieces."
+    },
+    {
+      "id": "food-36",
+      "category": "FOOD",
+      "text": "Photograph a fork, spoon, or pair of chopsticks resting after a meal.",
+      "subtitle": "Done."
+    },
+    {
+      "id": "food-37",
+      "category": "FOOD",
+      "text": "Capture a dish that someone prepared with great effort.",
+      "subtitle": "Love, plated."
+    },
+    {
+      "id": "food-38",
+      "category": "FOOD",
+      "text": "Take a picture of a fruit you can only get in season.",
+      "subtitle": "Short-lived sweetness."
+    },
+    {
+      "id": "food-39",
+      "category": "FOOD",
+      "text": "Photograph a bottle of drink and the glass it belongs in.",
+      "subtitle": "A pour waiting to happen."
+    },
+    {
+      "id": "food-40",
+      "category": "FOOD",
+      "text": "Capture steam rising from a bowl or pot.",
+      "subtitle": "The warm breath of a meal."
+    },
+    {
+      "id": "food-41",
+      "category": "FOOD",
+      "text": "Take a picture of the sticky, messy side of eating.",
+      "subtitle": "Fingers, sauce, napkins."
+    },
+    {
+      "id": "food-42",
+      "category": "FOOD",
+      "text": "Photograph your grocery bag, basket, or list.",
+      "subtitle": "What you planned to eat."
+    },
+    {
+      "id": "food-43",
+      "category": "FOOD",
+      "text": "Capture an evening snack ritual.",
+      "subtitle": "A tiny nightly habit."
+    },
+    {
+      "id": "food-44",
+      "category": "FOOD",
+      "text": "Take a picture of an empty plate you cleaned.",
+      "subtitle": "A job well done."
+    },
+    {
+      "id": "food-45",
+      "category": "FOOD",
+      "text": "Capture the action of cooking: sizzling, chopping, boiling.",
+      "subtitle": "Show the motion."
+    },
+    {
+      "id": "food-46",
+      "category": "FOOD",
+      "text": "Photograph a plate of something you were afraid to try.",
+      "subtitle": "Brave bites."
+    },
+    {
+      "id": "food-47",
+      "category": "FOOD",
+      "text": "Photograph something you cooked for another person.",
+      "subtitle": "Care as cooking."
+    },
+    {
+      "id": "food-48",
+      "category": "FOOD",
+      "text": "Photograph the first food you ate today.",
+      "subtitle": "The morning's opening line."
+    },
+    {
+      "id": "unx-9",
+      "category": "UNEXPECTED",
+      "text": "Capture something that looks like a face, but isn't.",
+      "subtitle": "Faces hiding in objects."
+    },
+    {
+      "id": "unx-10",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of an animal where it shouldn't be.",
+      "subtitle": "A cat on a car, a bird in a shop."
+    },
+    {
+      "id": "unx-11",
+      "category": "UNEXPECTED",
+      "text": "Photograph a moment that almost went wrong.",
+      "subtitle": "Almost-spilled, almost-missed."
+    },
+    {
+      "id": "unx-12",
+      "category": "UNEXPECTED",
+      "text": "Capture a stranger's small act of kindness, from a respectful distance.",
+      "subtitle": "Goodness, unposed."
+    },
+    {
+      "id": "unx-13",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of a sign with a funny typo or odd wording.",
+      "subtitle": "Delightful accidents."
+    },
+    {
+      "id": "unx-14",
+      "category": "UNEXPECTED",
+      "text": "Photograph a power outage, a flood, or any break in routine.",
+      "subtitle": "Life, interrupted."
+    },
+    {
+      "id": "unx-15",
+      "category": "UNEXPECTED",
+      "text": "Capture two strangers wearing the same thing.",
+      "subtitle": "A coincidence of style."
+    },
+    {
+      "id": "unx-16",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of an object in the wrong place.",
+      "subtitle": "A shoe on a fence, a cup on a post."
+    },
+    {
+      "id": "unx-17",
+      "category": "UNEXPECTED",
+      "text": "Photograph a shadow that looks like something else.",
+      "subtitle": "Light as a prankster."
+    },
+    {
+      "id": "unx-18",
+      "category": "UNEXPECTED",
+      "text": "Capture the moment before something falls or splashes.",
+      "subtitle": "Suspense in a still."
+    },
+    {
+      "id": "unx-19",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of a quiet joke on the street.",
+      "subtitle": "The city's sense of humor."
+    },
+    {
+      "id": "unx-20",
+      "category": "UNEXPECTED",
+      "text": "Photograph an unexpected guest, visitor, or delivery.",
+      "subtitle": "Doorbell surprises."
+    },
+    {
+      "id": "unx-21",
+      "category": "UNEXPECTED",
+      "text": "Capture an accidental photo that turned out well.",
+      "subtitle": "Luck, kept."
+    },
+    {
+      "id": "unx-22",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of an unexpected color on an ordinary object.",
+      "subtitle": "Surprising choices."
+    },
+    {
+      "id": "unx-23",
+      "category": "UNEXPECTED",
+      "text": "Photograph a crowd reacting to something out of frame.",
+      "subtitle": "Faces pointing at a mystery."
+    },
+    {
+      "id": "unx-24",
+      "category": "UNEXPECTED",
+      "text": "Capture a street performer, vendor, or worker in an unplanned moment.",
+      "subtitle": "Between acts."
+    },
+    {
+      "id": "unx-25",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of something that fell and stayed there.",
+      "subtitle": "A glove, a coin, a page."
+    },
+    {
+      "id": "unx-26",
+      "category": "UNEXPECTED",
+      "text": "Photograph a perfect little accident of composition.",
+      "subtitle": "Everything lined up."
+    },
+    {
+      "id": "unx-27",
+      "category": "UNEXPECTED",
+      "text": "Capture a sudden change in the weather.",
+      "subtitle": "From sun to storm."
+    },
+    {
+      "id": "unx-28",
+      "category": "UNEXPECTED",
+      "text": "Photograph an animal in the middle of something undignified.",
+      "subtitle": "Dignity abandoned."
+    },
+    {
+      "id": "unx-29",
+      "category": "UNEXPECTED",
+      "text": "Photograph a person absorbed in something, unaware.",
+      "subtitle": "Concentration is beautiful."
+    },
+    {
+      "id": "unx-30",
+      "category": "UNEXPECTED",
+      "text": "Capture a gift of nature in the middle of the city.",
+      "subtitle": "A flower in the concrete."
+    },
+    {
+      "id": "unx-31",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of a missing piece, an empty slot, or a blank spot.",
+      "subtitle": "What is not there."
+    },
+    {
+      "id": "unx-32",
+      "category": "UNEXPECTED",
+      "text": "Photograph a half-finished project, left as it is.",
+      "subtitle": "Interrupted creativity."
+    },
+    {
+      "id": "unx-33",
+      "category": "UNEXPECTED",
+      "text": "Capture the moment you changed your plans.",
+      "subtitle": "The other path."
+    },
+    {
+      "id": "unx-34",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of a lucky find.",
+      "subtitle": "A coin, a seat, a parking spot."
+    },
+    {
+      "id": "unx-35",
+      "category": "UNEXPECTED",
+      "text": "Photograph something stuck on a wire, a roof, or a branch.",
+      "subtitle": "Objects in high places."
+    },
+    {
+      "id": "unx-36",
+      "category": "UNEXPECTED",
+      "text": "Capture a short lull in a busy place.",
+      "subtitle": "The pause between waves."
+    },
+    {
+      "id": "unx-37",
+      "category": "UNEXPECTED",
+      "text": "Capture a detail you walked past a hundred times before today.",
+      "subtitle": "Old, but new to you."
+    },
+    {
+      "id": "unx-38",
+      "category": "UNEXPECTED",
+      "text": "Photograph the best accident of your week.",
+      "subtitle": "Whatever it was."
+    },
+    {
+      "id": "unx-39",
+      "category": "UNEXPECTED",
+      "text": "Capture a surprising connection between two unrelated things.",
+      "subtitle": "An invisible line ties them."
+    },
+    {
+      "id": "unx-40",
+      "category": "UNEXPECTED",
+      "text": "Capture a person taking a photo of something you can't see.",
+      "subtitle": "Photographers photographing."
+    },
+    {
+      "id": "unx-41",
+      "category": "UNEXPECTED",
+      "text": "Photograph a delivery, parcel, or package at the door.",
+      "subtitle": "Anticipation in cardboard."
+    },
+    {
+      "id": "unx-42",
+      "category": "UNEXPECTED",
+      "text": "Capture an insect or animal that has made itself at home with you.",
+      "subtitle": "Roommates."
+    },
+    {
+      "id": "unx-43",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of sudden darkness or sudden light.",
+      "subtitle": "Switches and surprises."
+    },
+    {
+      "id": "unx-44",
+      "category": "UNEXPECTED",
+      "text": "Photograph a miscolored, misprinted, or mismatched item.",
+      "subtitle": "Imperfect on purpose."
+    },
+    {
+      "id": "unx-45",
+      "category": "UNEXPECTED",
+      "text": "Capture the odd thing someone is carrying.",
+      "subtitle": "Unusual cargo."
+    },
+    {
+      "id": "unx-46",
+      "category": "UNEXPECTED",
+      "text": "Take a picture of someone running for something.",
+      "subtitle": "Urgency."
+    },
+    {
+      "id": "unx-47",
+      "category": "UNEXPECTED",
+      "text": "Photograph a window display that made you stop.",
+      "subtitle": "Something pulled your eye."
+    },
+    {
+      "id": "unx-48",
+      "category": "UNEXPECTED",
+      "text": "Capture a gap in a row of things.",
+      "subtitle": "A missing tooth in the skyline."
+    },
+    {
+      "id": "ref-9",
+      "category": "REFLECTION",
+      "text": "Photograph something that shows how your week really went.",
+      "subtitle": "Not how it looked."
+    },
+    {
+      "id": "ref-10",
+      "category": "REFLECTION",
+      "text": "Capture the thing you worry about most, as an object or a place.",
+      "subtitle": "Give it a shape."
+    },
+    {
+      "id": "ref-11",
+      "category": "REFLECTION",
+      "text": "Photograph a tool, skill, or result that reminds you what you can do.",
+      "subtitle": "A tool, a skill, a result."
+    },
+    {
+      "id": "ref-12",
+      "category": "REFLECTION",
+      "text": "Photograph something that reminds you to slow down.",
+      "subtitle": "A bench, a window, a cup."
+    },
+    {
+      "id": "ref-13",
+      "category": "REFLECTION",
+      "text": "Capture a goal, in the form of an object or a place.",
+      "subtitle": "A target you can see."
+    },
+    {
+      "id": "ref-14",
+      "category": "REFLECTION",
+      "text": "Take a picture of a habit you are proud of keeping.",
+      "subtitle": "Small, steady progress."
+    },
+    {
+      "id": "ref-15",
+      "category": "REFLECTION",
+      "text": "Photograph a habit you want to change.",
+      "subtitle": "Honest and without judgment."
+    },
+    {
+      "id": "ref-16",
+      "category": "REFLECTION",
+      "text": "Capture something that tells the story of this year.",
+      "subtitle": "One frame."
+    },
+    {
+      "id": "ref-17",
+      "category": "REFLECTION",
+      "text": "Photograph the corner, blanket, or chair where you feel safest.",
+      "subtitle": "A corner, a blanket, a chair."
+    },
+    {
+      "id": "ref-18",
+      "category": "REFLECTION",
+      "text": "Photograph what you do when nobody is watching.",
+      "subtitle": "The private routine."
+    },
+    {
+      "id": "ref-19",
+      "category": "REFLECTION",
+      "text": "Capture something you used to be afraid of.",
+      "subtitle": "Smaller now."
+    },
+    {
+      "id": "ref-20",
+      "category": "REFLECTION",
+      "text": "Take a picture of an invitation, plan, or schedule that matters to you.",
+      "subtitle": "Where you are heading."
+    },
+    {
+      "id": "ref-21",
+      "category": "REFLECTION",
+      "text": "Photograph the best thing you learned recently.",
+      "subtitle": "A book, a tool, a lesson."
+    },
+    {
+      "id": "ref-22",
+      "category": "REFLECTION",
+      "text": "Capture something you want to say thanks for.",
+      "subtitle": "To anyone, or to nothing."
+    },
+    {
+      "id": "ref-23",
+      "category": "REFLECTION",
+      "text": "Photograph somewhere you have changed a lot since you first came here.",
+      "subtitle": "Where you changed."
+    },
+    {
+      "id": "ref-24",
+      "category": "REFLECTION",
+      "text": "Photograph something that feels unfinished in your life.",
+      "subtitle": "A question mark in a photo."
+    },
+    {
+      "id": "ref-25",
+      "category": "REFLECTION",
+      "text": "Capture what home means to you right now.",
+      "subtitle": "Not what it used to mean."
+    },
+    {
+      "id": "ref-26",
+      "category": "REFLECTION",
+      "text": "Take a picture of an object that carries a promise.",
+      "subtitle": "A ring, a key, a note."
+    },
+    {
+      "id": "ref-27",
+      "category": "REFLECTION",
+      "text": "Photograph the gap between where you are and where you want to be.",
+      "subtitle": "A road, a stairway."
+    },
+    {
+      "id": "ref-28",
+      "category": "REFLECTION",
+      "text": "Capture something that represents your courage this month.",
+      "subtitle": "A step you took."
+    },
+    {
+      "id": "ref-29",
+      "category": "REFLECTION",
+      "text": "Take a picture of a thing you chose over an easier option.",
+      "subtitle": "A choice made."
+    },
+    {
+      "id": "ref-30",
+      "category": "REFLECTION",
+      "text": "Photograph a place where you do your best thinking.",
+      "subtitle": "Ideas live here."
+    },
+    {
+      "id": "ref-31",
+      "category": "REFLECTION",
+      "text": "Capture something that sums up your current mood honestly.",
+      "subtitle": "No filters."
+    },
+    {
+      "id": "ref-32",
+      "category": "REFLECTION",
+      "text": "Take a picture of a small win.",
+      "subtitle": "Celebrate it quietly."
+    },
+    {
+      "id": "ref-33",
+      "category": "REFLECTION",
+      "text": "Photograph something that reminds you of the person you want to become.",
+      "subtitle": "A role model's trace."
+    },
+    {
+      "id": "ref-34",
+      "category": "REFLECTION",
+      "text": "Capture a lesson from a mistake, in the form of an object.",
+      "subtitle": "What stayed."
+    },
+    {
+      "id": "ref-35",
+      "category": "REFLECTION",
+      "text": "Take a picture of the thing you do to calm down.",
+      "subtitle": "Your own comfort."
+    },
+    {
+      "id": "ref-36",
+      "category": "REFLECTION",
+      "text": "Photograph what you would tell your future self to keep.",
+      "subtitle": "One thing worth holding."
+    },
+    {
+      "id": "ref-37",
+      "category": "REFLECTION",
+      "text": "Capture the thing that pulls you out of bed.",
+      "subtitle": "Your reason."
+    },
+    {
+      "id": "ref-38",
+      "category": "REFLECTION",
+      "text": "Take a picture of a boundary you set.",
+      "subtitle": "A closed door, a quiet hour."
+    },
+    {
+      "id": "ref-39",
+      "category": "REFLECTION",
+      "text": "Photograph something that makes you laugh at yourself.",
+      "subtitle": "Humility, lightly."
+    },
+    {
+      "id": "ref-40",
+      "category": "REFLECTION",
+      "text": "Capture something you are still learning to accept.",
+      "subtitle": "Patience in a picture."
+    },
+    {
+      "id": "ref-41",
+      "category": "REFLECTION",
+      "text": "Take a picture of an everyday luxury.",
+      "subtitle": "Hot water, a quiet seat."
+    },
+    {
+      "id": "ref-42",
+      "category": "REFLECTION",
+      "text": "Photograph what is on your mind, using only what is in front of you.",
+      "subtitle": "Find the metaphor."
+    },
+    {
+      "id": "ref-43",
+      "category": "REFLECTION",
+      "text": "Capture a place that changed how you think.",
+      "subtitle": "A classroom, a street, a trip."
+    },
+    {
+      "id": "ref-44",
+      "category": "REFLECTION",
+      "text": "Take a picture of your hands doing something you are good at.",
+      "subtitle": "Skill, visible."
+    },
+    {
+      "id": "ref-45",
+      "category": "REFLECTION",
+      "text": "Photograph the oldest thing you rely on.",
+      "subtitle": "Constant."
+    },
+    {
+      "id": "ref-46",
+      "category": "REFLECTION",
+      "text": "Capture something you plan to finish soon.",
+      "subtitle": "A bookmark, a project, a list."
+    },
+    {
+      "id": "ref-47",
+      "category": "REFLECTION",
+      "text": "Take a picture of a reminder you left yourself.",
+      "subtitle": "A note, a string, an alarm."
+    },
+    {
+      "id": "ref-48",
+      "category": "REFLECTION",
+      "text": "Photograph what you want to remember about who you are today.",
+      "subtitle": "A snapshot of the self."
+    },
+    {
+      "id": "sea-9",
+      "category": "SEASONAL",
+      "text": "Capture the first sign that the season has changed.",
+      "subtitle": "A breeze, a leaf, a smell."
+    },
+    {
+      "id": "sea-10",
+      "category": "SEASONAL",
+      "text": "Photograph the clothes drying in the weather of the day.",
+      "subtitle": "The season, on a line."
+    },
+    {
+      "id": "sea-11",
+      "category": "SEASONAL",
+      "text": "Take a picture of a seasonal market full of fruit.",
+      "subtitle": "Abundance in season."
+    },
+    {
+      "id": "sea-12",
+      "category": "SEASONAL",
+      "text": "Photograph a rainy-season street with its reflections.",
+      "subtitle": "Wet light."
+    },
+    {
+      "id": "sea-13",
+      "category": "SEASONAL",
+      "text": "Capture the heat of summer in a shadow or a sweating glass.",
+      "subtitle": "You can almost feel it."
+    },
+    {
+      "id": "sea-14",
+      "category": "SEASONAL",
+      "text": "Take a picture of a holiday decoration being put up or taken down.",
+      "subtitle": "Beginning or end."
+    },
+    {
+      "id": "sea-15",
+      "category": "SEASONAL",
+      "text": "Photograph the school-year calendar as it changes.",
+      "subtitle": "The rhythm of classes."
+    },
+    {
+      "id": "sea-16",
+      "category": "SEASONAL",
+      "text": "Capture the weather in a person's posture.",
+      "subtitle": "Hunched, squinting, shaded."
+    },
+    {
+      "id": "sea-17",
+      "category": "SEASONAL",
+      "text": "Take a picture of a festival, fiesta, or local celebration.",
+      "subtitle": "Color and noise."
+    },
+    {
+      "id": "sea-18",
+      "category": "SEASONAL",
+      "text": "Photograph a seasonal drink or dish.",
+      "subtitle": "Only now."
+    },
+    {
+      "id": "sea-19",
+      "category": "SEASONAL",
+      "text": "Capture something that tells you the season by sound alone: cicadas, rain, wind, fireworks.",
+      "subtitle": "Seasons have soundtracks."
+    },
+    {
+      "id": "sea-20",
+      "category": "SEASONAL",
+      "text": "Take a picture of a field, rice paddy, or garden in this season.",
+      "subtitle": "Growth cycles."
+    },
+    {
+      "id": "sea-21",
+      "category": "SEASONAL",
+      "text": "Photograph a cold morning or a hot noon.",
+      "subtitle": "Temperature, made visible."
+    },
+    {
+      "id": "sea-22",
+      "category": "SEASONAL",
+      "text": "Capture the way the season changes your shadows.",
+      "subtitle": "Short or long."
+    },
+    {
+      "id": "sea-23",
+      "category": "SEASONAL",
+      "text": "Take a picture of a coat, scarf, or fan that finally got used.",
+      "subtitle": "Gear for the weather."
+    },
+    {
+      "id": "sea-24",
+      "category": "SEASONAL",
+      "text": "Photograph the preparations for a storm or heavy rain.",
+      "subtitle": "Tape, sandbags, candles."
+    },
+    {
+      "id": "sea-25",
+      "category": "SEASONAL",
+      "text": "Capture the first or last day of something seasonal.",
+      "subtitle": "A beginning or a goodbye."
+    },
+    {
+      "id": "sea-26",
+      "category": "SEASONAL",
+      "text": "Take a picture of what the sun does to a wall in this season.",
+      "subtitle": "Different light angles."
+    },
+    {
+      "id": "sea-27",
+      "category": "SEASONAL",
+      "text": "Photograph seasonal flowers or leaves on a street.",
+      "subtitle": "Public color."
+    },
+    {
+      "id": "sea-28",
+      "category": "SEASONAL",
+      "text": "Capture a school break, vacation, or holiday scene.",
+      "subtitle": "Rest in progress."
+    },
+    {
+      "id": "sea-29",
+      "category": "SEASONAL",
+      "text": "Take a picture of summer light on water.",
+      "subtitle": "Glare and sparkle."
+    },
+    {
+      "id": "sea-30",
+      "category": "SEASONAL",
+      "text": "Photograph dry leaves, a harvest, or fallen fruit.",
+      "subtitle": "The cycle turns."
+    },
+    {
+      "id": "sea-31",
+      "category": "SEASONAL",
+      "text": "Capture a family tradition tied to this time of year.",
+      "subtitle": "The same, again."
+    },
+    {
+      "id": "sea-32",
+      "category": "SEASONAL",
+      "text": "Capture an activity that belongs to this month and no other.",
+      "subtitle": "An annual routine."
+    },
+    {
+      "id": "sea-33",
+      "category": "SEASONAL",
+      "text": "Photograph the weather as seen through a window.",
+      "subtitle": "Safe behind glass."
+    },
+    {
+      "id": "sea-34",
+      "category": "SEASONAL",
+      "text": "Capture the start of a new school or work year.",
+      "subtitle": "Fresh supplies."
+    },
+    {
+      "id": "sea-35",
+      "category": "SEASONAL",
+      "text": "Take a picture of cool shade in a hot season.",
+      "subtitle": "Where everyone retreats."
+    },
+    {
+      "id": "sea-36",
+      "category": "SEASONAL",
+      "text": "Photograph a place that is empty because of the weather.",
+      "subtitle": "Everyone indoors."
+    },
+    {
+      "id": "sea-37",
+      "category": "SEASONAL",
+      "text": "Capture the evening temperature on a street.",
+      "subtitle": "Everyone out to cool off."
+    },
+    {
+      "id": "sea-38",
+      "category": "SEASONAL",
+      "text": "Take a picture of something drying in the sun.",
+      "subtitle": "Fish, clothes, or fruit."
+    },
+    {
+      "id": "sea-39",
+      "category": "SEASONAL",
+      "text": "Photograph the changing price, color, or availability of something seasonal.",
+      "subtitle": "Signs of the time."
+    },
+    {
+      "id": "sea-40",
+      "category": "SEASONAL",
+      "text": "Capture a night sky that is characteristic of this season.",
+      "subtitle": "The stars of now."
+    },
+    {
+      "id": "sea-41",
+      "category": "SEASONAL",
+      "text": "Take a picture of an umbrella in use.",
+      "subtitle": "Rain, personified."
+    },
+    {
+      "id": "sea-42",
+      "category": "SEASONAL",
+      "text": "Photograph the colors of this season inside your home.",
+      "subtitle": "Inside reflecting outside."
+    },
+    {
+      "id": "sea-43",
+      "category": "SEASONAL",
+      "text": "Capture the longest or shortest light of the day in your home.",
+      "subtitle": "Marking the sun."
+    },
+    {
+      "id": "sea-44",
+      "category": "SEASONAL",
+      "text": "Take a picture of a gift, card, or greeting tied to a holiday.",
+      "subtitle": "The season of giving."
+    },
+    {
+      "id": "sea-45",
+      "category": "SEASONAL",
+      "text": "Photograph what people are selling this time of year.",
+      "subtitle": "The market's mood."
+    },
+    {
+      "id": "sea-46",
+      "category": "SEASONAL",
+      "text": "Capture the moment the weather broke.",
+      "subtitle": "Relief."
+    },
+    {
+      "id": "sea-47",
+      "category": "SEASONAL",
+      "text": "Take a picture of what you wear to feel good in this season.",
+      "subtitle": "Comfort choices."
+    },
+    {
+      "id": "sea-48",
+      "category": "SEASONAL",
+      "text": "Photograph a spot you will return to when the season comes again.",
+      "subtitle": "Memory with a date."
+    }
+  ]
+}
